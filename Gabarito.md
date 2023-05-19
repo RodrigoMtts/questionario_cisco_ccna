@@ -2,15 +2,29 @@
 
 1. Quantas e quais são as características básicas que os arquitetos de rede devem atender para atender às expectativas do usuário?
 
+- **São 4: Tolerância a falhas, Escalabilidade, Qualidade de serviço(QoS) e Segurança.**
+
 2. Por que uma rede tolerante a falhas tem conexões redundantes?
 
-3. Qual a diferença entre as conexões	 ADSL e SDSL?
+- **Para oferecer caminhos alternativos caso um dispositivo ou link falhe.**
+
+3. Qual a diferença de uma conexão ADSL e SDSL?
+
+- **As conexões ADSL (DSL Assimétrico) tem velocidade de download é maior que a de upload e são usado geralmente por pequenos escritórios e escritórios domésticos.**
+- **As conexões SDSL (DSL Simétrica) fornece uploads e downloads nas mesmas velocidades altas e geralemente são usadas por empresas.**
 
 4. Quantos e quais são os requisitos fundamentais para atingir o objetivo de uma rede segura?
 
+- **São 3: Confidencialidade, Integridade e  Disponibilidade.**
+
 5. Qual caracteristica de uma rede garante que o tráfego impotante para uma organização seja priorizado quando ocorre congestionamento na rede.
 
+- **Qualidade do Serviço (QoS)**
+
 6. Qual é a operação realizada pelos dispositivos de rede quando ocorre o congestionamento do tráfego na rede?
+
+- **Os dispositivos retêm os pacotes na memória até que os recursos estejam disponíveis para transmiti-los.** 
+
 
 #2 Introdução
 
@@ -50,9 +64,9 @@
 
 9. Qual a diferença entre os modos de comandos Modo EXEC de usuário e Modo EXEC privilegiado(2.1.1)?
 
-- **O modo permite acesso a apenas um número limitado de comandos de monitoramento básico e é geralmente chamado de modo "view-only".
+- **O modo permite acesso a apenas um número limitado de comandos de monitoramento básico e é geralmente chamado de modo "view-only".**
 
-- **O modo permite acesso a todos os comandos e recursos e usuário pode usar qualquer comando de monitoramento e executar a configuração e comandos de gerenciamento.
+- **O modo permite acesso a todos os comandos e recursos e usuário pode usar qualquer comando de monitoramento e executar a configuração e comandos de gerenciamento.**
 
 10. Como sair que qualquer modo de subconfiguração para o modo EXEC privilegiado?(2.2.4)
 
