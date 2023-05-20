@@ -85,3 +85,41 @@
 
 - **Ajuda sensível ao contexto e verificação da sintaxe do comando.**
 
+14. Quais perguntas a ajuda sennsível ao contexto ajuda a responder rápidamente?(2.3.3)
+
+- **Quais comandos estão disponíveis em cada modo de comando?**
+- **Quais comandos começam com caracteres específicos ou grupo de caracteres?**
+- **Quais argumentos e palavras-chave estão disponíveis para comandos específicos?**
+
+15. Como se utiliza a ajuda sensível ao contexto?(2.3.3)
+
+- **Para acessar a ajuda sensível ao contexto, basta inserir um ponto de interrogação,?, na CLI.**
+
+16. Como funciona a verificação de sintaxe do comando?(2.3.3)
+
+- **Verifica se um comando válido foi inserido pelo usuário. Se o interpretador não puder entender o comando sendo inserido, ele fornecerá feedback descrevendo o que está errado com o comando.**
+
+17. Qual o atalho usada para abortar pesquisas de DNS, tracerouts, pings, etc?(2.3.5)
+
+- **Ctrl-Shift-6**
+
+18. Qual comando do Cisco IOS altera o nome do dispositivo e em qual modo deve ser utilizado?(2.4.1)
+
+- **hostname. Dever ser utilizado no modo de configuração global.**
+
+19. Quais diretrizes de nomeclatura devem ser adotados na hora de nomear um dispositivo de rede?(2.4.1)
+
+- **Começar com uma letra;**
+- **Não conter espaços;**
+- **Terminar com uma letra ou dígito;**
+- **Usar somente letras, números e traços;**
+- **Ter menos de 64 caracteres.**
+
+20. Estando no modo EXEC do usuário, quais comandos devem ser inseridos para proteger o acesso via porta console?(2.4.3)
+
+- **enable**
+- **configure terminal**
+- **line console 0**
+- **password cisco**
+- **login**
+
