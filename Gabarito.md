@@ -1,4 +1,4 @@
-#1 As redes de hoje
+# 1 As redes de hoje
 
 1. Quantas e quais são as características básicas que os arquitetos de rede devem atender para atender às expectativas do usuário?
 
@@ -26,7 +26,7 @@
 - **Os dispositivos retêm os pacotes na memória até que os recursos estejam disponíveis para transmiti-los.** 
 
 
-#2 Introdução
+# 2 Introdução
 
 1. Oque é o shell?(2.1.1)
 
