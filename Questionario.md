@@ -1,4 +1,4 @@
-#1 As redes de hoje
+# 1 As redes de hoje
 
 1. Quantas e quais são as características básicas que os arquitetos de rede devem atender para atender às expectativas do usuário?
 
@@ -12,7 +12,7 @@
 
 6. Qual é a operação realizada pelos dispositivos de rede quando ocorre o congestionamento do tráfego na rede?
 
-#2 Introdução
+# 2 Introdução
 
 1. Oque é o shell?(2.1.1)
 
@@ -39,5 +39,19 @@
 12. Qual a diferença entre palavras-chave e argumentos nos comandos do IOS?(2.3.1)
 
 13. Quais são as formas de ajuda disponíveis  no IOS?(2.3.3)
+
+14. Quais perguntas a ajuda sennsível ao contexto ajuda a responder rápidamente?(2.3.3)
+
+15. Como se utiliza a ajuda sensível ao contexto?(2.3.3)
+
+16. Como funciona a verificação de sintaxe do comando?(2.3.3)
+
+17. Qual o atalho usada para abortar pesquisas de DNS, tracerouts, pings, etc?(2.3.5)
+
+18. Qual comando do Cisco IOS altera o nome do dispositivo e em qual modo deve ser utilizado?(2.4.1)
+
+19. Quais diretrizes de nomeclatura devem ser adotados na hora de nomear um dispositivo de rede?(2.4.1)
+
+20. Estando no modo EXEC do usuário, quais comandos devem ser inseridos para proteger o acesso via porta console?(2.4.3)
 
 
