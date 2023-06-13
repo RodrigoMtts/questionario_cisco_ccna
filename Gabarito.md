@@ -148,7 +148,6 @@
 37. O que é Internet?
 
 - **Disponibiliza conexões atravś de redes globais interconectadas.**
-- 
 
 # 2 Introdução
 
@@ -281,7 +280,7 @@
 
 - **Este é o arquivo de configuração salvo armazenado na NVRAM. Ele contém todos os comandos que serão usados pelo dispositivo na inicialização ou reinicialização. O flash não perde seu conteúdo quando o dispositivo está desligado.**
 
-26. 25. Qual a função do arquivo running-config?(2.5.1)
+26. Qual a função do arquivo running-config?(2.5.1)
 
 - **sto é armazenado na memória de acesso aleatório (RAM). Ele reflete a configuração atual. A modificação de uma configuração ativa afeta o funcionamento de um dispositivo Cisco imediatamente. A RAM é uma memória volátil. Ela perde todo o seu conteúdo quando o dispositivo é desligado ou reiniciado.**
 
@@ -847,7 +846,7 @@
 
 57. Qual é o padrão sem fio para redes WLAN?(4.6.2)
 
-- **Wi-Fi (IEEE 802.11) **
+- **Wi-Fi (IEEE 802.11)**
 
 58. Qual é o padrão sem fio para redes WPAN?(4.6.2)
 
@@ -1006,7 +1005,7 @@
 
 14. Qual a caracteristica da topologia física?(6.2.1)
 
-- ** Identifica as conexões físicas e como os dispositivos finais e intermediários (ou seja, roteadores, comutadores e pontos de acesso sem fio) são interconectados. A topologia também pode incluir a localização específica do dispositivo, como o número do quarto e a localização no rack do equipamento. As topologias físicas são geralmente ponto a ponto ou estrela.**
+- **Identifica as conexões físicas e como os dispositivos finais e intermediários (ou seja, roteadores, comutadores e pontos de acesso sem fio) são interconectados. A topologia também pode incluir a localização específica do dispositivo, como o número do quarto e a localização no rack do equipamento. As topologias físicas são geralmente ponto a ponto ou estrela.**
 
 15. Qual a caracteristica da topologia logica?(6.2.1)
 
@@ -1026,7 +1025,7 @@
 
 19. Como funciona a comunicação half-duplex?(6.2.5)
 
-- **Ambos os dispositivos podem transmitir e receber no meio físico, mas não podem fazer isso simultaneamente. **
+- **Ambos os dispositivos podem transmitir e receber no meio físico, mas não podem fazer isso simultaneamente.**
 
 20. Como funciona a comunicação full-duplex?(6.2.5)
 
@@ -1318,14 +1317,14 @@
 
 40. Como funciona o método buffer de Memoria por porta?(7.4.3)
 
-- **Os quadros são armazenados em filas vinculadas a entradas e portas de saída.**
-- **Um quadro é transmitido para a porta de saída somente quando todos os quadros à frente na fila foram transmitidos com sucesso.**
-- **É possível para um único quadro atrasar a transmissão de todos os os quadros na memória devido a uma porta de destino ocupada.**
+- **Os quadros são armazenados em filas vinculadas a entradas e portas de saída;**
+- **Um quadro é transmitido para a porta de saída somente quando todos os quadros à frente na fila foram transmitidos com sucesso;**
+- **É possível para um único quadro atrasar a transmissão de todos os os quadros na memória devido a uma porta de destino ocupada; e**
 - **Esse atraso ocorre mesmo que os outros quadros possam ser transmitidos para portas de destino abertas.**
 
 41. Como funciona o método buffer de Memoria compartilhada?(7.4.3)
 
-- **Deposita todos os quadros em um buffer de memória comum compartilhado por todos os switches e a quantidade de memória de buffer necessária por uma porta é alocados dinamicamente.**
+- **Deposita todos os quadros em um buffer de memória comum compartilhado por todos os switches e a quantidade de memória de buffer necessária por uma porta é alocados dinamicamente; e**
 - **Os quadros no buffer são vinculados dinamicamente ao destino permitindo que um pacote seja recebido em uma porta e, em seguida, transmitida em outra porta, sem movê-la para uma fila diferente.**
 
 42. Verdadeiro ou falso. Portas Gigabit Ethernet só operam em full-duplex?(7.4.4)
