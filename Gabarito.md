@@ -1,30 +1,154 @@
 # 1 As redes de hoje
 
-1. Quantas e quais são as características básicas que os arquitetos de rede devem atender para atender às expectativas do usuário?
+1. Qual dos itens seguintes é o nome para todos os computadores conectados a uma rede que participam diretamente da comunicação em rede?(1.2.6)
 
-- **São 4: Tolerância a falhas, Escalabilidade, Qualidade de serviço(QoS) e Segurança.**
+- **Host**
 
-2. Por que uma rede tolerante a falhas tem conexões redundantes?
+2. Quando os dados são codificados como pulsos de luz, qual mídia está sendo usada para transmitir os dados?(1.2.6)
 
-- **Para oferecer caminhos alternativos caso um dispositivo ou link falhe.**
+- **Cabo de fibra ótica.**
 
-3. Qual a diferença de uma conexão ADSL e SDSL?
+3. Qual a diferença de uma conexão ADSL e SDSL?(1.2.6)
 
 - **As conexões ADSL (DSL Assimétrico) tem velocidade de download é maior que a de upload e são usado geralmente por pequenos escritórios e escritórios domésticos.**
 - **As conexões SDSL (DSL Simétrica) fornece uploads e downloads nas mesmas velocidades altas e geralemente são usadas por empresas.**
 
-4. Quantos e quais são os requisitos fundamentais para atingir o objetivo de uma rede segura?
+4. Cite dois dispositivos intermediários?(1.2.6)
 
-- **São 3: Confidencialidade, Integridade e  Disponibilidade.**
+- **Roteadores e Switches.**
 
-5. Qual caracteristica de uma rede garante que o tráfego impotante para uma organização seja priorizado quando ocorre congestionamento na rede.
+5. Qual conexão conecta fisicamente o dispositivo final à rede?(1.3.3)
 
-- **Qualidade do Serviço (QoS)**
+- **Placa de rede**
 
-6. Qual é a operação realizada pelos dispositivos de rede quando ocorre o congestionamento do tráfego na rede?
+6. Quais conexões são portas especializadas em um dispositivo de rede que se conectam a redes individuais?(1.3.3)
 
 - **Os dispositivos retêm os pacotes na memória até que os recursos estejam disponíveis para transmiti-los.** 
 
+7. Que tipo de topologia de rede permite que você veja quais dispositivos finais estão conectados a quais dispositivos intermediários e que mídia está sendo usada?(1.3.3)
+
+- **Topologia Lógica**
+
+8. Que tipo de topologia de rede permite que você veja a localização real dos dispositivos intermediários e da instalação de cabos?(1.3.3)
+
+- **Topologia Física**
+
+9. Qual infraestrutura de rede fornece acesso aos usuários e dispositivos finais em uma pequena área geográfica, que normalmente é uma rede em um departamento de uma empresa, casa ou pequena empresa?(1.4.5)
+
+- **LAN**
+
+10. Qual infraestrutura de rede uma organização pode usar para fornecer acesso seguro e protegido a indivíduos que trabalham para uma organização diferente, mas exigem acesso aos dados da organização?(1.4.5)
+
+- **Extranet**
+
+11. Qual infraestrutura de rede fornece acesso a outras redes em uma grande área geográfica, que geralmente pertence e é gerenciada por um provedor de serviços de telecomunicações?(1.4.5)
+
+- **WAN**
+
+12. Quando os designers seguem padrões e protocolos aceitos, qual das quatro características básicas da arquitetura de rede é alcançado?(1.6.6)
+
+- **Escabilidade**
+
+13. Confidencialidade, integridade e disponibilidade são requisitos de qual das quatro características básicas da arquitetura de rede?(1.6.6)
+
+- **Segurança**
+
+14. Com qual tipo de política, um roteador pode gerenciar o fluxo de dados e tráfego de voz, dando prioridade às comunicações de voz se a rede sofrer congestionamento?(1.6.6)
+
+- **QoS**
+
+15. Ter vários caminhos para um destino é conhecido como redundância. Este é um exemplo de qual característica da arquitetura de rede?(1.6.6)
+
+- **Tolerância a falhas.**
+
+16. Qual recurso é uma boa ferramenta de conferência para usar com outras pessoas que estão localizadas em outro lugar da sua cidade, ou mesmo em outro país?(1.7.10)
+
+- **Comunicação por vídeo.**
+
+17. Qual recurso descreve o uso de ferramentas pessoais para acessar informações e se comunicar em uma rede empresarial ou campus?(1.7.10)
+
+- **BYOD.**
+
+18. Qual recurso contém opções como Público, Privado, Personalizado e Híbrido?(1.7.10)
+
+- **Computação em nuvem.**
+
+19. Qual recurso está sendo usado ao conectar um dispositivo à rede usando uma tomada elétrica?(1.7.10)
+
+- **Powerline.**
+
+20. Qual recurso usa a mesma tecnologia celular que um telefone inteligente?(1.7.10)
+
+- **Banda larga sem fio.**
+
+21. Qual ataque diminui a velocidade ou trava equipamentos e programas?(1.8.3)
+
+- **DoS**
+
+22. Qual opção cria uma conexão segura para trabalhadores remotos?(1.8.3)
+
+- **VPN**
+
+23. Qual opção bloqueia o acesso não autorizado à sua rede?(1.8.3)
+
+- **Firewall**
+
+24. Qual opção descreve um ataque à rede que ocorre no primeiro dia em que uma vulnerabilidade se torna conhecida?(1.8.3)
+
+- **Zero day or zero hour**
+
+25. Durante uma inspeção de rotina, um técnico descobriu que o software instalado em um computador estava coletando secretamente dados sobre sites visitados por usuários do computador.Que tipo de ameaça está afetando este computador?(1.10.2)
+
+- **Spyware**
+
+26. Que termo refere-se a uma rede que oferece acesso seguro para os fornecedores, clientes e colaboradores dos escritórios de uma empresa?()
+
+- **Extranet**
+
+27. Uma grande corporação modificou sua rede para permitir que os usuários acessem recursos de rede de seus laptops pessoais e smartphones. Qual tendência de rede isso descreve?
+
+- **BYOD**
+
+28. O que é um ISP?
+
+- **É uma organização que permite a conexão de indivíduos e empresas à internet.**
+
+29. Cite um cenário que seria recomendado o uso de um WISP?
+
+- **Uma fazenda ou área rural sem acesso de band larga com fio.**
+
+30. Que característica de uma rede permite que ela cresça rapidamente para comportar novos usuários e aplicações sem prejudicar o desempenho do serviço fornecido aos usuários atuais?
+
+- **Escabilidade**
+
+31. Uma faculdade está construindo um novo dormitório em seu campus. Os funcionários estão cavando o solo para instalar uma nova tubulação de água para o dormitório. Um funcionário danificou acidentalmente um cabo de fibra óptica que conecta dois dormitórios ao data center do campus. Embora o cabo tenha sido cortado, os alunos nos dormitórios experimentaram somente uma rápida interrupção dos serviços de rede. Qual característica da rede aparece aqui?
+
+- **Tolerância a falhas.**
+
+32. Quais são duas características de uma rede escalável? 
+
+- **Adequada para dispositivos modulares que permitem a expansão e cresce sem afetar os usuários atuais.**
+
+33. Qual dispositivo executa a função de determinar o caminho que as mensagens devem tomar através da internetworks?
+
+- **Roteador**
+
+34. Que tipo de rede deve um usuário doméstico acessar para fazer compras on-line?
+
+- **Internet**
+
+35. Como a BYOD (Bring Your Own Device) muda a maneira como as empresas implementam as redes?
+
+- **BYOD significa flexibilidade em onde e como os usuários acessam os recursos de rede.**
+
+36. Um funcionário quer acessar a rede da organização remotamente da forma mais segura possível. Que recurso de rede permitiria ao funcionário ter acesso remoto seguro à rede da empresa?
+
+- **VPN**
+
+37. O que é Internet?
+
+- **Disponibiliza conexões atravś de redes globais interconectadas.**
+- 
 
 # 2 Introdução
 
@@ -860,7 +984,7 @@
 - **Encapsula novamente o pacote em um novo quadro; e**
 - **Encaminha o novo quadro apropriado para o meio desse segmento da rede física.**
 
-9.Qual é outro nome para a camada de enlace de dados OSI?(6.1.5)
+9. Qual é outro nome para a camada de enlace de dados OSI?(6.1.5)
 
 - **Camada 2.**
 
