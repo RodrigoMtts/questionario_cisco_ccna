@@ -357,11 +357,11 @@
 21. Qual a hierarquia de organizações de padrões envolvidos com o desenvolvimento e suporte da internet?(3.4.2)
 
 
-![](suporte-da-internet.jpg)	
+![](figuras/		suporte-da-internet.jpg)	
 
 22. Qual a hierarquia de organizações de padrões envolvidos com o desenvolvimento e suporte do TCP/IP?(3.4.2)
 
-![](suporte-da-tcp-ip.jpg)
+![](figuras/suporte-da-tcp-ip.jpg)
 
 23. Que tipos de padrões são desenvolvidos pela Setor de Normalização das Telecomunicações da União Internacional de Telecomunicações (ITU-T)?(3.4.3)
 
@@ -371,7 +371,7 @@
 
 24. Qual a correspondencia entre as camadas dos modelos OSI e TCP/IP?(3.5.4)
 
-![](modelo-ois-tcp-ip-correspondencia.jpg)
+![](figuras/modelo-ois-tcp-ip-correspondencia.jpg)
 
 25. Quais os principais benefícios da segmentação?(3.6.1)
 
@@ -392,7 +392,7 @@
 
 29. Qual os nome dos PDUs em cada camada de rede?(3.6.3)
 
-![](nome-dos-pdus.jpg)
+![](figuras/nome-dos-pdus.jpg)
 
 30. Qual é o processo de dividir um grande fluxo de dados em partes menores antes da transmissão?(3.6.6)
 
@@ -1036,16 +1036,229 @@
 # 7 Switching Ethernet
 
 
+1. A tecnologia Ethernet atua em quais camadas do modelo OSI?(7.1.1)
 
+- **Enlace de dados(subcamada MAC) e Física.**
 
+2. Qual a funcionalidade do CSMA/CD?(7.1.3)
 
+- **Permite que vários dispositivos compartilhem o mesmo meio half-duplex, detectando uma colisão quando mais de um dispositivo tenta transmitir simultaneamente. Ele também fornece um algoritmo de recuo para retransmissão.**
 
+3. Qual o tamamnho mínimo e máximo de um quadro ethernet?(7.1.4)
 
+- **Mínimo de 64 bytes e o máximo é 1518 bytes.**
 
+4. Verdadeiro ou falso. O campo preâmbulo é incluído ao descrever o tamanho do quadro.(7.1.4)
 
+- **Falso.**
 
+5. Como são chamados quadros mairoes que 1518 bytes?(7.1.4)
 
+- **“jumbo” ou “baby giant”.**
 
+6. Quais são os campos do quadro ethernet e seus respectivos tamanhos?(7.1.4)
+
+![](figuras/quadro-ethernet.jpg)
+
+7. Qual o tamanho do preambulo e do SFD?(7.1.4)
+
+- **O Preâmbulo tem 7 bytes e o Delimitador de Quadro Inicial SFD tem 1 byte.**
+
+8. Qual é a utilidade do preambulo e do SFD?(7.1.4)
+
+- **são usados para sincronização entre o dispositivos de envio e recepção.Essencialmente, o primeiro poucos bytes informam aos receptores para se prepararem para receber um novo quadro.**
+
+9. Qual a utilidade do campo Tipo/Comprimento/EtherType?(7.1.4)
+
+- **Identifica o protocolo da camada superior encapsulado em o quadro Ethernet.**
+
+10. Quais são os valores hexadecimais para os protocolos IPv4, IPv6 e ARP no campo EtherType?(7.1.4)
+
+- **0x800 para IPv4, 0x86DD para IPv6 e 0x806 para ARP.**
+
+11. Qual o tamanho mínimo e máximo do campo dados de um quadro ethernet?(7.1.4)
+
+- **46 - 1500 bytes**
+
+12. Se um pequeno pacote for encapsulado em um quadro ethernet, fazendo com que o tamanho do quadro não alcance 64 bytes, o tamanho mínimo de um quadro, o que é realizado?(7.1.4)
+
+- **bits adicionais chamados pad são usados para aumentar o tamanho do quadro para este tamanho mínimo.**
+
+13. Qual parte de um quadro Ethernet usa um pad para aumentar o campo de quadro para pelo menos 64 bytes?(7.1.5)
+
+- **Campo de dados.**
+
+14. Qual parte de um quadro Ethernet detecta erros no quadro?(7.1.5)
+
+- **Sequência de verificação de quadro (FCS).**
+
+15. Qual parte de um quadro Ethernet descreve o protocolo de camada superior encapsulado?(7.1.5)
+
+- **EtherType.**
+
+16. Qual parte de um quadro Ethernet notifica o receptor para se preparar para um novo quadro?(7.1.5)
+
+- **Preâmbulo.**
+
+17. Qual subcamada de link de dados controla a interface de rede através de drivers de software?(7.1.5)
+
+- **LLC**
+
+18. Qual subcamada de link de dados trabalha com as camadas superiores para adicionar informações de aplicativos para entrega de dados a protocolos de nível superior?(7.1.5)
+
+- **LLC**
+
+19. Qual o tamanho de um endereço MAC em bits e em bytes?(7.2.2)
+
+- **48 bits e 6 bytes.**
+
+20. Em quais partes um endereço MAC é dívidido?(7.2.2)
+
+- **Em duas partes de 3 bytes siguinificando: OUI (Organizationally Unique Indentifier) e Fonecedor atribuído.**
+
+21. Onde o endereço MAC fica armazenado?(7.2.3)
+
+- **Em hardware, na memória ROM da NIC.**
+
+22.  Qua é o processo que um host de origem usa para determinar o endereço MAC de destino associado a um endereço IPv4?(7.2.4)
+
+- **ARP (Address Resolution Protocol)**
+
+23. Qual é o processo que um host de origem usa para determinar o endereço MAC de destino associado a um endereço IPv6?(7.2.4)
+
+- **ND (Neighbour Discovery Discovery).**
+
+24. O que um switch faz ao receber um quadro com endereço MAC de destino iguaal a FF-FF-FF-FF-FF-FF?(7.2.5)
+
+- **É inundada todas as portas de switch Ethernet, exceto a porta de entrada.**
+
+25. Quais são os préfixo de multicast MAC para IPv4 e IPv6 respectivamente?(7.2.6)
+
+- **01-00-5E e 33-33**
+
+26. Qual é o intervalo de endereço multicast do IPv4?(7.2.6)
+
+- **224.0.0.0 a 239.255.255.255**
+
+27. O intervalo de endereços multicast IPv6 começa com que valor?(7.2.6)
+
+- **ff00::/8**
+
+28. Como um switch cria a tabela de endereços MAC?(7.3.2)
+
+- **Dinamicamente examinando o endereço MAC de origem dos quadros recebidos em uma porta.**
+
+29. U que é o "unicast desconhecido"?(7.3.2)
+
+- **Se o endereço MAC de destino não estiver na tabela, o switch encaminhará o quadro por todas as portas, exceto a de entrada.**
+
+30. Quanto tempo por padrão a maioria de switches ethernet mantém uma entrada na tabela de endereços MAC?(7.3.2)
+
+- **5 minutos.**
+
+31. Como um switch filtra um quadro?(7.3.3)
+
+- **Quando a tabela de endereços MAC contém o a entrada para o endereço destino, o quadro é enviado apenas para a porta específica.**
+
+32. Quais são os métodos de emcaminhamento de quadro?(7.4.1)
+
+- **Switching store-and-forward e Switching cut-through.**
+
+33. Como o método Switching store-and-forward funciona?(7.4.1)
+
+- **Recebe o quadro inteiro e calcula o CRC. Se o CRC é válido, o switch procura o endereço de destino, que determina a interface de saída.**
+
+34. Como o método Switching cut-through funciona?(7.4.1)
+
+- **Esse método de encaminhamento de quadros encaminha o quadro antes de ser totalmente recebido. Somente o endereço de destino é lido.**
+
+35. Qual a vantegem do método Switching store-and-forward?(7.4.1)
+
+- **O descarte de quadros com erros reduz o consumo de largura de banda por dados corrompidos e é necessário para a análise de qualidade de serviço (QoS).**
+
+36. Quais são os dois modos de Switching cut-through?(7.4.2)
+
+- **Switching Fast-forward e Switching Fragment-free.**
+
+37. Como o método Switching Fast-forward funciona?(7.4.2)
+
+- **Encaminha imediatamente um pacote depois de ler o endereço de destino, sem verificação de erros.**
+
+38. Como o método Switching Fragment-free funciona?(7.4.2)
+
+- **armazena os primeiros 64 bytes do quadro antes de encaminhar e executa uma pequena verificação de erros.**
+
+39. Quais são os Memory Buffering Methods?(7.4.3)
+
+- **Memória por porta e Memória compartilhada.**
+
+40. Como funciona o método buffer de Memoria por porta?(7.4.3)
+
+- **Os quadros são armazenados em filas vinculadas a entradas e portas de saída.**
+- **Um quadro é transmitido para a porta de saída somente quando todos os quadros à frente na fila foram transmitidos com sucesso.**
+- **É possível para um único quadro atrasar a transmissão de todos os os quadros na memória devido a uma porta de destino ocupada.**
+- **Esse atraso ocorre mesmo que os outros quadros possam ser transmitidos para portas de destino abertas.**
+
+41. Como funciona o método buffer de Memoria compartilhada?(7.4.3)
+
+- **Deposita todos os quadros em um buffer de memória comum compartilhado por todos os switches e a quantidade de memória de buffer necessária por uma porta é alocados dinamicamente.**
+- **Os quadros no buffer são vinculados dinamicamente ao destino permitindo que um pacote seja recebido em uma porta e, em seguida, transmitida em outra porta, sem movê-la para uma fila diferente.**
+
+42. Verdadeiro ou falso. Portas Gigabit Ethernet só operam em full-duplex?(7.4.4)
+
+- **Verdadeiro**
+
+43. Como o recurso auto-MDIX pode ser ativado?(7.4.5)
+
+- **usando o comando de configuração de mdix auto interface.**
+
+44. Quais são os dois métodos para alternar dados entre portas em um switch?(7.4.6)
+
+- **Switching cut-trhough e Switching store and forward.**
+
+45. Qual método de comutação pode ser implementado usando comutação rápida ou comutação sem fragmentos?(7.4.6)
+
+- **Switching cut-trhough.**
+
+46. Quais dois tipos de técnicas de buffer de memória são usadas por switches?(7.4.6)
+
+- **Buffer de memória baseado em porta e buffer de memória compartilhado.**
+
+47. Qual recurso negocia automaticamente a melhor velocidade e configuração duplex entre dispositivos de interconexão?(7.4.6)
+
+- **Negociação automática.**
+
+48. O que um host em uma rede Ethernet fará se receber um quadro com um endereço MAC de destino que não corresponda ao seu próprio endereço MAC?(7.5.2)
+
+- **Ele descartará.**
+
+49. Qual dispositivo de rede toma decisões de encaminhamento com base no endereço MAC destino contido no quadro?(7.5.2)
+
+- **Switch**
+
+50. Qual função ou operação é executada pela subcamada LLC?(7.5.2)
+
+- **Ele se comunica com camadas de protocolos superiores.**
+
+51. O que acontece com os quadros runt recebidos pelo switch Ethernet Cisco?(7.5.2)
+
+- **Ele é descartado.**
+
+52. Que informações de endereçamento são registradas por um switch para construir sua tabela de endereços MAC?(7.5.2)
+
+- **O endereço MAC de origem da camada 2 dos quadros recebidos.**
+
+53. O que é auto-MDIX?(7.5.2)
+
+- **Um recurso que detecta o tipo de cabo Ehternet.**
+
+54. Que tipo de endereço é 01-00-5E-0A-00-02?(7.5.2)
+
+- **Um endereço multicast.**
+
+55. Quais são os dois tamanhos (mínimo e máximo) de um quadro Ethernet?(7.5.2)
+
+- **64 e 1518 bytes**
 
 
 
