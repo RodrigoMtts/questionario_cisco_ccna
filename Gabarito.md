@@ -1449,22 +1449,258 @@
 
 
 
+# 8 Camada de rede
+
+1. Quais são as características básicas da IP?(8.1.3)
+
+- **Sem conexão, melhor esforço e Idenpendente da mídia.**
+
+2. O que significa a caracteristica do IP "Sem conexão"?(8.1.3)
+
+- **Não há conexão com o destino estabelecido antes do envio de pacotes de dados.**
+
+3. O que significa a caracteristica do IP "Melhor esforço"?(8.1.3)
+
+- **O IP é inerentemente não confiável, porque a entrega de pacotes não é garantida.**
+
+4. O que significa a caracteristica do IP "Independente da mídia"?(8.1.3)
+
+- **A operação é independente do meio (ou seja, cobre, fibra ótica ou sem fio) que carrega os dados.**
+
+5. Em qual caso os pacotes IPv4 terão seus endereços des origem trocados?(8.1.2)
+
+- **Quando por trás de uma NAT.**
+
+6. O que siginifica MTU?(8.1.6)
+
+- **O tamanho máximo da PDU que cada meio consegue transportar - maximum transmission unit - MTU.**
+
+7. Qual é o termo para dividir um pacote IP ao encaminhá-lo de uma mídia para outra mídia com uma MTU menor?(8.1.7)
+
+- **Fragmentação.**
+
+8. Qual camada OSI envia segmentos para serem encapsulados em um pacote IPv4 ou IPv6?(8.1.7)
+
+- **Camada de Transporte.**
+
+9. Qual camada é responsável por pegar um pacote IP e prepará-lo para transmissão pelo meio de comunicação?(8.1.7)
+
+- **Camada de enlace de dados.**
+
+10. Qual método de entrega não garante que o pacote seja entregue totalmente sem erros?(8.1.7)
+
+- **Melhor esforço.**
+
+11. Como cada roteador que um pacote atravessa para chegar ao host de destino é chamado?(8.1.1)
+
+- **Salto.**
+
+12. Qual o formato do cabeçalho IPv4?(8.2.2)
+
+![](figuras/ipv4-header.jpg)
+
+13. Qual a utilidade do campo DS (Serviços diferenciados ou DiffServ) anteriormentes chamados de ToS?(8.2.2)
+
+- **Usado para determinar a prioridade de cada pacote.**
+
+14. Como é estruturado o campo DS do cabeçalho IPv4?(8.2.2)
+
+- **Os seis bits mais significativos são os bits do ponto de código de serviços diferenciados(DSCP) e os dois últimos são os bits de notificação de congestionamento explícita (ECN).**
+
+15. Qual o valor definido no campo versão de um IPv4?(8.2.2)
+
+- **0100.**
+
+16. Quais são os dois campos mais comumente referenciados em um cabeçalho de pacote IPv4 que indicam de onde o pacote está vindo e para onde ele está indo?(8.2.4)
+
+- **Endereços IP de origem e destino.**
+
+17. Qual campo é usado para detectar corrupção no cabeçalho IPv4?(8.2.4)
+
+- **Soma de verificação de cabeçalho(Header Chacksum).**
+
+18. Qual campo inclui valores comuns como ICMP (1), TCP (6) e UDP (17)?(8.2.4)
+
+- **Protocol.**
+
+19. Quantos octetos tem os protocolos IPv4 e IPv6?(8.3.3)
+
+- **IPv4 consiste de comprimento variável de 20 até 60(caso o campo opção for usado) octetos, e o IPv6 tem 40 octetos fixo.**
+
+20. Qual o valor binário do campo versão em um pacote IPv6?(8.3.4)
+
+- **0110**
+
+21. Quais são os campos do IPv6?(8.3.4)
+
+![](figuras/ipv6-header.jpg)
+
+22. Qual a função dos cabeçalhos de extensão (EH) no IPv6?(8.3.4)
+
+- **Usados para fragmentação, segurança, suporte à mobilidade e muito mais.**
+
+23. Cite duas melhorias fornecidas pelo IPv6 em comparação com o IPv4?(8.3.6)
+
+- **Aumento do espaços de endereços e usa cabeçalho mais simples para fornecer melhor manipulação de pacotes.**
+
+24. Quais são os endereços de loopback do IPv4 e IPv6?(8.4.1)
+
+- **127.0.0.1 e ::1**
+
+25. Qual a utilidade de pingar o loopback?(8.4.1)
+
+- **Testa a pilha de protocolos do TCP/IP no host.**
+
+26. Como o host finais de origem determinam se o IP de destino está na mesma rede?(8.4.1)
+
+- **Em IPv4 o host usa sua própria mascara de sub-rede, e em IPv6 o roteador anuncia o endereço de rede local(prefixo).**
+
+27. Como os host de uma rede obtem o endereço de default gateway dinamicamente em IPv4 e IPv6?(8.4.3)
+
+- **IPv4: é atribuído por DHCP, IPv6: O roteador anuncia o endereço.**
+
+28. Um host local pode ser alcançado sem a nescessidade de um roteador?(8.4.5)
+
+- **Sim**
+
+29. Quais dois comandos podem ser inseridos em um host Windows para exibir sua tabela de roteamento IPv4 e IPv6?(8.4.5)
+
+- **netstat -r e route print**
+
+30. Quais são as princiapais siglas da tabela de roteamento de roteadores cisco?(8.5.6)
+
+- **L - Endereço IP da interface local diretamente conectado**
+- **C - Rede diretamente conectada**
+- **S - A rota estática foi configurada manualmente por um administrador**
+- **O - OSPF**
+- **D - EIGRP**
+
+31. Qual é o comando usado em um roteador Cisco IOS para exibir a tabela de roteamento e em qual modo deve ser executado?(8.5.7)
+
+- **show ip route, modo EXEC privilegiado.**
+
+32. O que um código de “O” indica ao lado de uma rota na tabela de roteamento?(8.5.7)
+
+- **Uma rota aprendida dinamicamente do OSPF.**
+
+33. Esse tipo de rota também é conhecido como gateway de último recurso.(8.5.7)
+
+- **rota padrão.**
+
+34. Como rotas estáticas são configuradas?(8.5.7)
+
+- **Manualmente.**
+
+35. Verdadeiro ou falso? Um roteador pode ser configurado com uma combinação de rotas estáticas e um protocolo de roteamento dinâmico.(8.5.7)
+
+- **Verdadeiro.**
+
+36. Como a camada de rede sabe o MTU do meio?(8.6.2)
+
+- **Ele é transmitido pela camada de enlace de dados.**
+
+37. Um computador tem de enviar um pacote para um host de destino na mesma LAN. Como o pacote será enviado?(8.6.2)
+
+- **O pacote será enviado diretamente para o mesmo host de destino.**
+
+38. Qual endereço IPv4 um host pode usar para fazer ping na Interface de Loopback?(8.6.2)
+
+- **127.0.0.1**
+
+39. Quando um protocolo sem conexão está em uso em uma camada inferior do modelo OSI, como os dados ausentes são detectados e retransmitidos, se necessário?(8.6.2)
+
+- **Protocolos orientados a conexão da camada superior rastreiam os dados recebidos e podem requisitar a retransmissão desses protocolos no host emissor.**
 
 
+40. Qual campo em um pacote IPv6 é usado pelo roteador para determinar se um pacote expirou e deve ser descartado?(8.6.2)
 
+- **Limite de saltos**
 
+41. Qual a finção dos campos Tamanho do Cabeçalho de Internet (IHL), Tamanho Total e Soma de Verificação do Cabeçalho?(8.2.2)
 
+- **Identificar e validar o pacote.** 
 
+42. Quais campos são usados para organizar um pacote fragmentado?(8.2.2)
 
+- **Identification, Flags, and Fragment Offset fields.**
 
+43. Quais são as quatro operações básicas que os protocolos de camada de rede executam?(8.1.1)
 
+- **Endereçamento de dispositivos finais, Encapsulamento, Roteamento e Desencapsulamento.**
 
+44. Quando o valor do TTL chega a zero o que ocorre?(8.2.2)
 
+- **O roteador descartará o pacote e enviará uma mensagem ICMP de tempo excedido para o endereço IP de origem.**
 
+45. Qual o valor em decimal do campo protocol do IPv4 para o ICMP?(8.2.2)
 
+- **1**
 
+46. Qual o valor em decimal do campo protocol do IPv4 para o UDP?(8.2.2)
 
+- **17**
 
+47. Qual o valor em decimal do campo protocol do IPv4 para o TCP?(8.2.2)
+
+- **6**
+
+48. Por que o roteador deve recalcular a Header Checksum do IPv4 a cada salto?(8.2.2)
+
+- **Porque o rotador decrementa o TTL a cada salto, alterando o cabeçalho IP.**
+
+49. Para que serve a Network Address Translation (NAT)?(8.3.1)
+
+- **É uma forma de vários dispositivos compartilharem um único endereço IPv4 público.**
+
+50. Qual a desvantagem de se utilizar NAT?(8.3.1)
+
+- **Cria complexidade adicional na rede, criando latência e dificultando a solução de problemas.**
+
+51. Qual a função do campo Traffic Class no IPv6?(8.3.4)
+
+- **Tem 8 bits e é equivalente ao campo DSv do IPv4.**
+
+52. Qual a função do campo Flow Label no IPv6?(8.3.4)
+
+- **Tem 20 bits, e sugere que todos os pacotes com a mesma etiqueta de fluxo recebam o mesmo tipo de manipulação pelos roteadores.**
+
+53. Quais três opções são os principais problemas associados ao IPv4?(8.3.6)
+
+- **Redução do número de endereços IP dispoíveis, maior complexidade da rede e expansão da tabela de roteamento da internet e falta de conectividade ponta a ponta.**
+
+54. Quais duas opções são as melhorias fornecidas pelo IPv6 em comparação com o IPv4?(8.3.6)
+
+- **Aumentou o espaço de endereços IP e usa um cabeçalho mais simples para fornecer melhor manipulação de pacotes.**
+
+55. Quantos campos e qual o tamanho do cabeçalho IPv6?(8.3.6)
+
+- **8 campos e 40 octetos.**
+
+56. Qual campo do IPv6 substitui o campo Tempo de vida(TTL) do IPv4?(8.3.6)
+
+- **Hop limit.**
+
+57. O que acontece quando um pacote chega na interface do roteador?(8.5.1)
+
+- **O roteador examina o endereço IP de destino do pacote e pesquisa sua tabela de roteamento para determinar para onde encaminhar o pacote.**
+
+58. Como o roteador escolhe a rota para encaminhar o pacote?(8.5.1)
+
+- **Usando a melhor (mais longa) entrada de rota correspondente.**
+
+59. A tabela de roteamento de um roteador armazena quais tipos de entradas de rota?(8.5.2)
+
+- **Redes conectadas diretamente, Redes remotas e Rota padrão.**
+
+60. Como os roteadores aprendem sobre redes remotas?(8.5.2)
+
+- **Manualmente ou dinamicamente usando protocolo de roteamento dinâmico.**
+
+61. Quando a rota padrão é usada por um roteador para emcaminhar pacotes?(8.5.2)
+
+- **Quando não há correspondência melhor (mais) na tabela de roteamento IP.**
+
+# 9 Resolução de endereços
 
 
 
