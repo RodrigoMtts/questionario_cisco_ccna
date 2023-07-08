@@ -1702,8 +1702,309 @@
 
 # 9 Resolução de endereços
 
+1. Quais são os dois principais são atribuídos a um dispositivo em uma LAN Ethernet?(9.1.1)
 
+- **Endereço físico (o endereço MAC) e Endereço lógico (o endereço IP).**
 
+2. 
+
+1. Qual endereço MAC de destino seria incluído em um quadro enviado de um dispositivo de origem para um dispositivo de destino na mesma rede local?(9.1.4)
+
+- **O endereço MAC do dispositivo de destino.**
+
+2. Qual endereço MAC de destino seria incluído em um quadro enviado de um dispositivo de origem para um dispositivo de destino em uma rede local remota?(9.1.4)
+
+- **O endereço MAC do dispositivo do roteador local.**
+
+3. Quais dois protocolos são usados para determinar o endereço MAC de um endereço IP de dispositivo de destino conhecido (IPv4 e IPv6)?(9.1.4)
+
+- **ARP e ND.**
+
+4. Quais são os endereços que um host precisasaber para mandar um pacote para outro na mesma rede?(9.2.1)
+
+- **O endereço IPv4 e o endereço MAC do dispositivo de destino.**
+
+5. Quais funções básicas o ARP realiza?(9.2.1)
+
+- **Resolução de endereços IPv4 em endereços MAC; e**
+- **Mantendo uma tabela de mapeamentos de endereços IPv4 para MAC.**
+
+6. Em o nome da tabela mantém os mapeamentos de endereços IPv4 para MAC?(9.2.2)
+
+- **Tabela ARP ou cache ARP.**
+
+7. Onde fica armazenados a tabela ARP?(9.2.2) 
+
+- **Na memória RAM.**
+
+8. Quando um solicitação ARP deve ser enviada?(9.2.3)
+
+- **Quando um dispositivo precisa determinar o endereço MAC associado a um endereço IPv4 e não possui uma entrada para o endereço IPv4 em sua tabela ARP.**
+
+9. Qual protocolo encapsula o ARP?(9.2.3)
+
+- **Ethernet**
+
+10. Qual o endereço MAC de destino de uma requisição ARP?(9.2.3)
+
+- **FF:FF:FF:FF:FF:FF**
+
+11. Qual o valor do campo tipo de um ARP e qual a sua função?(9.2.3)
+
+- **0x806, Ele informa à NIC de recebimento que a parte de dados do quadro precisa ser transferida para o processo ARP**
+
+12. O que o dispositivo deve fazer quando uma requisição ARP chega a sua NIC?(9.2.3)
+
+- **Deve processar(Feito pelo SO) a requisição ARP para ver se o endereço IPv4 destino corresponde ao seu.**
+
+13. Quando as entradas na tabela ARP expiram?(9.2.4)
+
+- **Quando o dipositivo não receber um quadro de um dispositivo específico antes que o carimbo de data/hora expire.**
+
+14. Qual comando usado em um roteador cisco para ver a tabela ARP?(9.2.7)
+
+- **No modo EXEC privilegiado: show ip arp**
+
+15. Qual comando usado no Windows para ver a tabela ARP?(9.2.7)
+
+- **arp -a**
+
+16. Como é conhecida as técnicas de mitigação de envenenamento ARP em Switches de nível corporativo?(9.2.8)
+
+- **Inspeção dinâmica ARP (DAI).**
+
+17. Onde a tabela ARP é armazenada em um dispositivo?(9.2.10)
+
+- **RAM**
+
+18. As entradas ARP são armazenadas temporariamente?(9.2.10)
+
+- **Sim**
+
+19. Como funciona o envenenamento ARP?(9.2.8)
+
+- **Um dispostivo responde as requisições ARP mesmo não sendo o alvo, fazendo o tranfego ser direcionado para ele.**
+
+20. Qual o protocolo usado em conjunto ao IPv6 para realizar o mapeamento IPv6/MAC?(9.3.1)
+
+- **protocolo Descoberta de vizinhos ou ND ou NDP.**
+
+21. Quais serviços são ofericidos pelo ND?(9.3.2)
+
+- **Resolução de endereço, descoberta de roteador e redirecionamento para IPv6.**
+
+22. Quais mensagem são usadas pelo ND seus serviços?(9.3.2)
+
+- **Mensagens de solicitação de vizinho;**
+- **Mensagens de anúncio vizinho;**
+- **Mensagens de solicitação de roteador;**
+- **Mensagens de anúncio do roteador; e**
+- **Redirecionar mensagem.**
+
+23. Por qual RFC é definido o IPv6 ND?(9.3.2)
+
+- **IETF RFC 4861**
+
+24. Como a mensagem ND é encapsulada?(9.3.1)
+
+- **Ethernet,IPv6,ICMPv6,Ethernet trailer**
+
+25. Quando usando ND, quais são os endereços destino dos cabeçalhos do protocolo de enlace de dados e do IPv6?(9.3.1)
+
+- **Multicast e SN(solicitação de vizinho) multicast.**
+
+26. Qual a vantagem do ND em relação ao ARP?(9.3.3)
+
+- **A própria NIC determina se a mensagem é para sí, sem precisar enviar para o OS processar.**
+
+27. Quais duas mensagens ICMPv6 são usadas no SLAAC?(9.3.5)
+
+- **Anúncio de roteador e solicitação de roteador.**
+
+28. Em quais duas mensagens ICMPv6 são usadas para determinar o endereço MAC de um endereço IPv6 conhecido?(9.3.5)
+
+- **Anúncio de vizinho e solicitação de vizinho.**
+
+29. Para que tipo de endereço são enviadas mensagens de solicitação de vizinho ICMPv6?(9.3.5)
+
+- **Multicast**
+
+30. Qual componente do roteador contém a tabela de roteamento, o cache ARP e o arquivo de configuração em execução?(9.4.2)
+
+- **RAM**
+
+31. Que tipo de informação contém uma tabela ARP?(9.4.2)
+
+- **IPv4 para mapeamento de endereço MAC.**
+
+32. Um PC está configurado para obter um endereço IP automaticamente da rede 192.168.1.0/24. O administrador de rede emite o comando arp –a e observa uma entrada de 192.168.1.255 ff-ff-ff-ff-ff-ff. Qual afirmação descreve esta entrada?(9.4.2)
+
+- **Está é uma entrada de mapa estatico.**
+
+33. Um analista de segurança cibernética acredita que um invasor está falsificando o endereço MAC do gateway padrão para executar um ataque man-in-the-middle. Qual comando o analista deve usar em um Windows para exibir o endereço MAC que um host está usando para acessar o gateway padrão?(9.4.2)
+
+- **arp -a**
+
+34. O que um switch de Camada 2 fará quando o endereço MAC de destino de um quadro recebido não estiver na tabela MAC?(9.4.2)
+
+- **Ele encaminha um quadro para todas as portas, exceto a porta de recebimento.**
+
+35. Como o processo ARP usa um endereço IP?(9.4.2)
+
+- **Para determinar o enderço MAC de um dispositivo na mesma rede.**
+
+36. Qual ação é executada por um switch da Camada 2 quando ele recebe um quadro de broadcast da Camada 2?(9.4.2)
+
+- **Ele envia o quadro para todas as portas exceto a que ele recebeu.**
+
+37. Que endereços são mapeados pelo ARP?(9.4.2)
+
+- **Endereço MAC de destino para o endereço IP de destino.**
+
+38. Quando um pacote IP é enviado para um host em uma rede remota, quais informações são fornecidas pelo ARP?(9.4.2)
+
+- **O endereço MAC da interface do roteador mais próxima do host de envio.**
+
+39. A tabela ARP em um switch mapeia quais dois tipos de endereço juntos?(9.4.2)
+
+- **Endereço da camada 2 e endereço da camada 3.**
+
+40. Qual é o propósito do ARP em uma rede IPv4?(9.4.2)
+
+- **Para obter um endereço MAC especifico quando um endreço IP é conhecido.**
+
+41. Qual endereço de destino é usado em um quadro de solicitação ARP?(9.4.2)
+
+- **FF-FF-FF-FF-FF-FF**
+
+# 10 Configuração básica do roteador
+
+1. Como configurar o nome do dispositivo?(10.1.1)
+
+- **Router(config)# hostname hostname**
+
+2. Como proteger o modo EXEC privilegiado?(10.1.1)
+
+- **Router(config)# enable secret password**
+
+3. Como proteger o modo EXEC usuário?(10.1.1)
+
+- **Router(config)# line console 0**
+- **Router(config-line)# password password**
+- **Router(config-line)# login**
+
+4. Como proteger o acesso remoto Telnet/SSH?(10.1.1)
+
+- **Router(config-line)# line vty 0 4**
+- **Router(config-line)# password password**
+- **Router(config-line)# login**
+- **Router(config-line)# transport input {ssh | telnet}**
+
+5. Proteger todas as senhas do arquivo de configuração.
+
+- **Router(config)# service password-encryption**
+
+6. Como Apresentar a notificação legal?(10.1.1)
+
+- **Router(config)# banner motd delimiter message delimiter**
+
+7. Como salvar a configuração?(10.1.1)
+
+- **Router# copy running-config startup-config**
+
+8. Como habilitar o acesso SSH e Telnet?(10.1.1)
+
+- **R1(config-line)#transport input ssh telnet**
+
+9. Como se configura a interface de um roteador?(10.2.1)
+
+- **Router(config)# interface type-and-number**
+- **Router(config-if)# description description-text**
+- **Router(config-if)# ip address ipv4-address subnet-mask**
+- **Router(config-if)# ipv6 address ipv6-address/prefix-length**
+- **Router(config-if)# no shutdown**
+
+10. O comando "description description-text" é necessário para habilitar uma interface em um roteador?(10.2.1)
+
+- **Não**
+
+11. Qual o limite de caracteres para o texto de descrição das interface dos roteadores?(10.2.1)
+
+- **240 caracteres.**
+
+12. Quais comandos podem ver as configurações de interfaces?(10.2.3)
+
+- **show ip interface brief e show ipv6 interface brief**
+
+13. Quais comandos exibem as tabelas de roteamentos em um roteador?(10.2.4)
+
+- **show ip route e show ipv6 route**
+
+14. Quais comandos exibem estatisticas sobre interfaces?(10.2.4)
+
+- **show interfaces(somente IPv4), show ip interfaces e show ipv6 interface**
+
+15. Como configurar um gateway padrão em um switch?(10.3.2)
+
+- **SW1(config)# ip default-gateway ip-address**
+
+16. Por que se deve configurar um gateway padrão em um switch?(10.3.2)
+
+- **Para que ele possa ser administrado remotamente a partir de outra rede.**
+
+17. Um roteador inicializa e entra no modo de configuração. Qual é o motivo para isso?(10.4.6)
+
+- **O arquivo de configuração está ausente da NVRAM.**
+
+18. Qual comando é usado para criptografar todas as senhas em um arquivo de configuração do roteador?
+
+- **service password-encryption**
+
+19. A política da empresa requer o uso do método mais seguro para proteger o acesso ao exec privilegiado e ao modo de configuração nos roteadores. A senha EXEC privilegiada é trustknow1. Qual dos seguintes comandos de roteador atinge o objetivo de fornecer o mais alto nível de segurança?
+
+- **enable secret trusknow1**
+
+20. Qual será a resposta do roteador depois que o comando "router(config)# hostname portsmouth" for inserido?
+
+- **portsmouth(config)#**
+
+21. Um administrador está configurando um novo roteador para permitir acesso de gerenciamento fora de banda. Qual conjunto de comandos permitirá o login necessário usando uma senha de cisco?
+
+- **line console 0**
+- **password cisco**
+- **login**
+
+22. Qual comando pode ser usado em um roteador Cisco para exibir todas as interfaces, o endereço IPv4 atribuído e o status atual?
+
+- **show ip interface brief**
+
+23. Qual modo CLI permite que os usuários acessem todos os comandos do dispositivo, como aqueles usados para configuração, gerenciamento e solução de problemas?
+
+- **modo EXEC privilegiado**
+
+24. Qual é a finalidade do arquivo de configuração inicial em um roteador da Cisco?
+
+- **Conter os comandos usados para configurar inicialmente um roteador durante a inicialização.**
+
+25. Quais características descrevem o gateway padrão de um host?
+
+- **O endereço lógico da interface do roteador na mesma rede que o host.**
+
+26. Qual é o propósito do banner motd comando?
+
+- **Ele fornece uma maneira de fazer anúncios para aqueles que fazem login em um roteador.**
+
+27. Um técnico está configurando um roteador para permitir todas as formas de acesso de gerenciamento. Como parte de cada tipo diferente de acesso, o técnico está tentando digitar o comando login. Qual modo de configuração deve ser inserido para fazer essa tarefa?
+
+- **Qualque modo de confiração de linha.**
+
+28. O que é armazenado na NVRAM de um roteador Cisco?
+
+- **A configuração de inicialização.**
+
+29. Qual afirmação sobre o service password-encryption comando é verdadeira?
+
+- **Assim que o serivce password-encryption comando é inserido, todas as senhas definidas atualmente anteriormente exibidas em texto sem formatação são criptografadas.**
 
 
 
