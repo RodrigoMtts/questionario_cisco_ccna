@@ -2006,9 +2006,149 @@
 
 - **Assim que o serivce password-encryption comando é inserido, todas as senhas definidas atualmente anteriormente exibidas em texto sem formatação são criptografadas.**
 
+# 11 Endereçamento IPv4
 
+1. Qual o nome do processo usado para identificar a parte da rede e a parte de host?(11.1.2)
 
+- **AND**
 
+2. Quais são os tipos de endereços IP que existe em cada rede?(11.1.6)
+
+- **Endereço de rede;**
+- **Endereços de host;**
+- **Endereço de broadcast.**
+
+3. Host-A has the IPv4 address and subnet mask 10.5.4.100 255.255.255.0. What is the network address of Host-A?(11.1.8)
+
+- **10.5.4.0**
+
+4. Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. What is the network address of Host-A?(11.1.8)
+
+- **172.16.00**
+
+5. Como subdividir redes IPv4 pode melhorar o desempenho da rede?(11.2.2)
+
+- **Ao eliminar o excesso de tráfego broadcast**
+
+6. O que representa o endereço destino 255.255.255.255?(11.2.2)
+
+- **Broadcast ilimitado.**
+
+7. O que é o endereço de difusão direcionada?(11.2.2)
+
+-- **Endereço de broadcast onde todos os bits da parte do host de destino são 1s.**
+
+8. Qual comando desativa as transmissões direcionadas em um roteador?(11.2.2)
+
+- **Router(config)# no ip directed-broadcasts**
+
+9. Por que a transmissões direcionadas foram desativadas por padrão em roteadores?(11.2.2)
+
+- **Devido a preocupações de segurança e abuso prévio de usuários mal-intencionados.**
+
+10. Qual o intervalo de endereços multicast IPv4?(11.2.3)
+
+- **224.0.0.0 a 239.255.255.255**
+
+11. Um host inscrito em um grupo multicast recebe pacotes com endereços com quais destinos?(11.2.3)
+
+- **O seu endereço unicast e o endereço multicast.**
+
+12. Qual é o endereço multicast utilizado pelo OSPF?(11.2.3)
+
+- **224.0.0.5**
+
+13. Como fica em binário o primeiro IP de uma rede IPv4?(11.2.3)]
+
+- **O ultimo bit da dos hosts é 1 o resto é 0**
+
+14. O que são endereços IPv4 públicos?(11.3.1)
+
+- **Endereços roteados globalmente entre os roteadores do provedor de serviços de Internet (ISP).** 
+
+15. O que são endereços IPv4 privados?(11.3.1)
+
+- **São usados pela maioria das organizações para atribuir endereços IPv4 a hosts internos.**
+
+16. Qual foi a solução ao esgotamento dos IPv4 a longo prazo?(11.3.1)
+
+- **IPv6**
+
+17. Qual RFC define os IPv4 privados?(11.3.1)
+
+- **RFC 1918**
+
+18. Qual a função do NAT?(11.3.2)
+
+- **É usado para converter entre endereços IPv4 privados e IPv4 públicos.**
+
+19. Quais são os endereço IPv4 privados?(11.3.2)
+
+- **10.0.0.0/8 , 172.16.0.0/16 e 192.168.0.0/24**
+
+20. Quais são os endereços de loopback?(11.3.4)
+
+- **127.0.0.0 / 8 ou 127.0.0.1 a 127.255.255.254**
+
+21. O que é o endereçamento legado classful?(11.3.5)
+
+- **Os clientes recebiam um endereço de rede com base em uma das três classes, A, B ou C.**
+
+22. Qual o range de endereços classe A?(11.3.5)
+
+- **0.0.0.0/8 to 127.0.0.0/8**
+
+23. Qual o range de endereços classe B?(11.3.5)
+
+- **128.0.0.0 /16 - 191.255.0.0 /16**
+
+24. Qual o range de endereços classe C?(11.3.5)
+
+- **192.0.0.0 /24 - 223.255.255.0 /24**
+
+25. Qual o range de endereços multicast classe D?(11.3.5)
+
+- **224.0.0.0 a 239.0.0.0 **
+
+26. Qual o range de endereços especial classe E?(11.3.5)
+
+- **240.0.0.0 - 255.0.0.0**
+
+27. Qual a função da IANA(Internet Assigned Numbers Authority)?(11.3.6)
+
+- **Gerencia e aloca blocos de endereços IP aos registros regionais de Internet (RIRs).**
+
+28. Qual a função dos registros regionais de Internet (RIRs)?(11.3.6)
+
+- **São responsáveis por alocar endereços IP aos ISPs.**
+
+29. Qual a função dos ISPs?(11.3.6)
+
+- **Fornecem blocos de endereços IPv4 para organizações e ISPs menores.**
+
+30. Quais é o RIR da africa?(11.3.6)
+
+- **AfriNIC**
+
+31. Quais é o RIR da Ásia-Pacífico?(11.3.6)
+
+- **APNIC**
+
+32. Quais é o RIR da América do Norte?(11.3.6)
+
+- **ARIN**
+
+33. Quais é o RIR da América latina e algumas ilhas do Caribe?(11.3.6)
+
+- **LACNIC**
+
+34. Quais é o RIR da Europa, Oriente Médio e Ásia Central?(11.3.6)
+
+- **RIPE NCC**
+
+35. 
+
+in progress...
 
 
 
