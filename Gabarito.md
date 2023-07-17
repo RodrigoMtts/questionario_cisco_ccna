@@ -2146,7 +2146,518 @@
 
 - **RIPE NCC**
 
-35. 
+35. Quais duas situações são o resultado de tráfego excessivo de transmissão?(11.4.4)
+
+- **Operação de rede lentas e opereção de dispositivo lenta.**
+
+36. Quantos hosts estão disponíveis em uma rede /8?(11.5.1)
+
+- **16.777.214**
+
+37. Quantos hosts estão disponíveis em uma rede /16?(11.5.1)
+
+- **65.534**
+
+38. Quantos hosts estão disponíveis em uma rede /24?(11.5.1)
+
+- **254**
+
+39. Quantos sub-redes e host existem para uma rede /25?(11.5.2)
+
+- **2 e 126**
+
+40. Quantos sub-redes e host existem para uma rede /26?(11.5.2)
+
+- **4 e 62**
+
+41. Quantos sub-redes e host existem para uma rede /27?(11.5.2)
+
+- **8 e 30**
+
+42. Quantos sub-redes e host existem para uma rede /28?(11.5.2)
+
+- **16 e 14**
+
+43. Quantos sub-redes e host existem para uma rede /29?(11.5.2)
+
+- **32 e 6**
+
+44. Quantos sub-redes e host existem para uma rede /30?(11.5.2)
+
+- **64 e 2**
+
+45. O que é a DMZ?(11.7.1)
+
+- **Faz parte da rede da empresa que contém recursos disponíveis para a internet, como um servidor web. Os dispositivos na DMZ usam endereços IPv4 públicos.**
+
+46. O significa VLSM?(11.7.1)
+
+- **Variable Subnet Length Masking - dividir seu espaço de endereço público em sub-redes com diferentes máscaras de sub-rede, a fim minimizar o número de endereços de host não utilizados por sub-rede.**
+
+47. Qual é a notação de comprimento do prefixo para a máscara de sub-rede 255.255.255.224?(11.10.4)
+
+- **27**
+
+48. Quantos endereços de host válidos estão disponíveis em uma sub-rede IPv4 que está configurada com uma máscara /26?
+
+- **62**
+
+49. Qual máscara de sub-rede seria usada se fossem 5 bits de host disponíveis? 
+
+- **255.255.255.224**
+
+50. Um administrador de redes divide a rede 192.168.10.0/24 em sub-redes com máscaras /26. Quantas sub-redes de mesmo tamanho são criadas?
+
+- **4**
+
+51. Qual máscara de sub-rede é representada pela notação em barra /20?
+
+- **255.255.240.0**
+
+52. Qual afirmativa sobre máscara de sub-rede de tamanho variável (VLSM) é verdadeira?​
+
+- **O tamanho de cada sub-rede pode ser diferente, dependendo dos requisitos.**
+
+53. Por que um dispositivo da camada 3 executa um AND entre um endereço IP destino e a máscara de sub-rede? 
+
+- **Para identificar o endereço da rede destino.**
+
+54. Quantos endereços IP úteis estão disponíveis na rede 192.168.1.0/27? 
+
+- **30**
+
+55. Qual máscara de sub-rede seria usada se exatamente 4 bits de host estivessem disponíveis? 
+
+- **255.255.255.240**
+
+56. Quais duas partes são componentes de um endereço IPv4? (Escolha duas.)
+
+- **Pate da rede e porção dos hosts.**
+
+57. Se um dispositivo de rede tiver uma máscara de /26, quantos endereços IP estarão disponíveis para os hosts nessa rede? 
+
+- **62**
+
+58. O que o endereço IP 172.17.4.250/24 representa?
+
+- **Endereço de host.**
+
+59. Se um dispositivo de rede tiver uma máscara de /28, quantos endereços IP estarão disponíveis para os hosts nessa rede? 
+
+- **14**
+
+60. Qual é o objetivo de combinar a máscara de sub-rede com um endereço IP?
+
+- **Determinar a sub-rede a qual o host pertence.**
+
+61. Um administrador de redes está variando as divisões em sub-rede de uma rede. A menor sub-rede tem máscara 255.255.255.224. Quantos endereços de host utilizáveis esta sub-rede fornecerá?
+
+- **30**
+
+# 12 Endereçamento IPv6
+
+1. Quais são as técnicas de migração do IPv4 para o IPv6?(12.1.2)
+
+- **Pilha dupla, Tunelamento e Conversão.**
+
+2. Como funciona a técnica de migração Pilha dupla?(12.1.2)
+
+- **IPv4 e IPv6 coexistem no mesmo segmento de rede.  Os dispositivos de pilha dupla executam os protocolos IPv4 e IPv6 simultaneamente.**
+
+3. Como funciona a técnica de migração Tunelamento?(12.1.2)
+
+- **O pacote IPv6 é encapsulado dentro de um pacote IPv4.**
+
+4. Como funciona a técnica de migração Conversão?(12.1.2)
+
+- **A NAT64 (Network Address Translation 64) faz com que um pacote IPv4 e um pacote IPv4 é traduzido para um pacote IPv6.**
+
+5. Qual é o fator motivador mais importante para mudar para o IPv6?(12.1.3)
+
+- **Esgotamento do espaço de endereço IPv4.**
+
+6. Verdadeiro ou Falso: 4 em cada 5 RIRs não têm mais endereços IPv4 suficientes para alocar regularmente aos clientes.(12.1.3)
+
+- **Falso.**
+
+7. Quais das seguintes técnicas usam conectividade IPv6 nativa?(12.1.3)
+
+- **Pilha dupla.**
+
+8. Quantos digitos hexadecimais formam o IPv6?(12.2.1)
+
+- **32**
+
+9. O que é um hexteto?(12.2.1)
+
+- **segmento de 16 bits ou quatro valores hexadecimais.**
+
+10. O que é formato preferêncial do IPv6?(12.2.1)
+
+- **Significa que o endereço IPv6 é gravado usando todos os 32 dígitos hexadecimais.**]
+
+11. Quais são os dois modos de reduzir a notação de endereços IPv6?(12.2.2)
+
+- **Omitir zeros à esquerda e dois pontos duplos.**
+
+12. Quando pode ser usada a regra de reduzir endereços dois pontos duplos?(12.2.3)
+
+- **(::) pode substituir uma única sequência contígua de um ou mais segmentos de 16 bits (hextetos) compostos exclusivamente por zeros.**
+
+13. Quantas vezes pode ser usada a regra de reduzir endereços "dois pontos duplos"?(12.2.3)
+
+- **Apenas uma.**
+
+14. Quando pode ser usada a regra de reduzir endereços "omitir zeros à esquerda"?(12.2.3)
+
+- **Omitindo os 0s (zeros) à esquerda de qualquer seção de 16 bits ou hexteto.**
+
+15. Como é chamado o formato IPv6 quando associada à técnica de omissão dos 0s à esquerda e dois pontos duplos?(12.2.32)
+
+- **Formato compactado.**
+
+16. Quais são as três grandes categorias de endereços IPv6?(12.3.1)
+
+- **Uniscast, Multicast e Anycast.**
+
+17. O que é um endereço anycast?(12.3.1)
+
+- **Um endereço IPv6 anycast é qualquer endereço IPv6 unicast que possa ser atribuído a vários dispositivos.**
+
+18. O IPv6 possui broadcast?(12.3.1)
+
+- **Não.**
+
+19. Como é chamado no IPv6 o prefixo?(12.3.2)
+
+- **Comprimento do prefixo.**
+
+20. Qual o prefixo recomendado para LANs IPv6?(12.3.2)
+
+- **/64**
+
+21. Qual o prefixo utilizado na configuração automática de endereço sem estado (SLAAC)?(12.3.2)
+
+- **/64**
+
+22. Quais são os diferentes tipos de endereços unicast IPv6?(12.3.3)
+
+- **Unicast global;**
+- **Link local;**
+- **Loopback(::1/128);**
+- **Edereço não especificado(::);**
+- **local exclusivo; e**
+- **IPv4 embutido.**
+
+23. Normalmente quantos endereços unicast os dispositivos IPv6 tem?(12.3.3)
+
+- **2**
+
+24. Quais os dois endereços unicast utilizados em dispositivos IPv6?(12.3.3)
+
+- **Um endereço unicast global(GUA) e Endereço LLA (Link-Local Address).**
+
+25. O que é um endereço unicast global(GUA)?(12.3.3)
+
+- **São endereços de Internet roteáveis e globalmente exclusivos.**
+
+26. Como os unicast global(GUA) podem ser distribuídos?(12.3.3)]
+
+- **Estaticamente ou dinamicamente.**
+
+27. O que é um endereço  LLA (Link-Local Address)?(12.3.3)
+
+- **São usados para se comunicar com outros dispositivos no mesmo link local, não são roteaveis além do link local.**
+
+28. A que se refere o termo link em IPv6?(12.3.3)
+
+- **Uma sub-rede.**
+
+29. Qual o intervalo dos endereços locais exclusivos?(12.3.4)
+
+- **fc00::/7 a fdff::/7**
+
+30. Atualmente quais endereços unicast globais estão sendo distribuídos pelos RIRs?(12.3.5)
+
+- **Apenas os com  os primeiros três bits de 001 ou 2000::/3**
+
+31. Qual o intervalo do primeiro hexteto GUAs atualmente disponíveis?(12.3.5)
+
+- **0010 0000 até 0011 1111 ou 2000 até 3fff**
+
+32. Quais são as partes da GUA?(12.3.5)
+
+- **Prefixo global de roteamento, ID da sub-rede e ID da interface.**
+
+33. Como é formado o prefixo da rede?(12.3.5)
+
+- **Prefixo de roteamento global mais ID da sub-rede.**
+
+34. Qual o prefixo de roteamento global mais comum atribuídos pelos ISP?(12.3.6)
+
+- **/48**
+
+35. O que é o endereço 2001:db8::/32?(12.3.5)
+
+- **Um endereço reservado para fins de documentação, incluindo o uso em exemplos.**
+
+36. Qual tipo de endereço unicast cada interface de rede habilitada para IPv6 deve ter?(12.3.7)
+
+- **LLA**
+
+37. Se um LLA não estiver configurado manualmente em uma interface, o que acontece?(12.3.7)
+
+- **O dispositivo criará automaticamente um próprio, sem se comunicar com um servidor DHCP, incluindo um gateway padrão.**
+
+38. Qual o intervalo dos LLAs?(12.3.7)
+
+- **fe80::/10 até febf::/10**
+
+39. Como um dispositivo pode ser configurado como um LLA?(12.3.7)
+
+- **Estaticamente ou Dinamicamente(valores aleatórios ou método de indentificador Único Extendend).**
+
+40. Como é composto o IPv6 atribuído dinamicamente pelo método Identificador Único Extended (EUI)?(12.3.7)
+
+- **Endereço MAC do cliente juntamente com bits adicionais.**
+
+41. Qual é o comprimento do prefixo recomendado para a maioria das sub-redes IPv6?(12.3.8)
+
+- **/64**
+
+42. Qual parte de um GUA é atribuída pelo ISP?(12.3.8)
+
+- **Prefixo global de roteamento.**
+
+43. Que tipo de endereço unicast IPv6 não é roteável entre redes?(12.3.8)
+
+- **LLA**
+
+44. Verdadeiro ou Falso: O campo ID de sub-rede em um GUA deve usar bits emprestados do ID da interface.(12.3.8)
+
+- **Falso.**
+
+45. Que tipo de endereço IPv6 começa com fe80?(12.3.8)
+
+- **LLA**
+
+46. Quais são as diferenças significativas entre um endereço local exclusivo(IPv6) e um endereço privado(IPv4)?(12.3.4)
+
+- **Os endereços unique local são utilizados para endereçamento local dentro de um site ou entre um número limitado de sites.**
+- **Os endereços unique local podem ser usados para dispositivos que nunca precisarão ou terão acesso por outra rede.**
+- **Endereços locais exclusivos não são globalmente roteados ou traduzidos para um endereço IPv6 global.**
+
+47. Quais são as duas maneiras de um dispositivo obter um endereço IPv6 unicast global automaticamente?(12.4.2)
+
+- **Configuração automática de endereço stateless (SLAAC) e Com estado DHCPv6.**
+
+48. Qual o comando para configurar o LLA?(12.4.3)
+
+- **R1(config-if)# ipv6 address fe80::2:1 link-local**
+
+49. Quando uma mensagem RA(Anuncio de roteador) é enviada por um roteador?(12.5.1)
+
+- **A cada 200 segundos ou como resposta a uma mensagem ICMPv6 de RS(Solicitação de roteador).**
+
+50. Qual comando ativa o roteamento para IPv6?(12.5.1)
+
+- **R1(config)# ipv6 unicast-routing**
+
+51. Para que serve uma mensagem ICMPv6 de RA?(12.5.1)
+
+- **É uma sugestão para um dispositivo sobre como obter um endereço IPv6 unicast global. A decisão final é do sistema operacional do dispositivo.**
+
+52. O que uma mensagem ICMPv6 RA inclui?(12.5.1)
+
+- **Prefixo de rede e comprimento do prefixo, Endereço do gateway padrão e Endereços DNS e nome de domínio.**
+
+53. Que tipo de endereço unicast IPv6 é gateway padrão?(12.5.1)
+
+- **LLA**
+
+54. Quais métodos existem para as mensagens ICMPv6 RA?(12.5.1)
+
+- **Method 1: SLAAC, Method 2: SLAAC com um servidor DHCPv6 sem estado e Method 3: DHCPv6 com estado (sem SLAAC).**
+
+55. Como funciona o método 1: SLAAC?(12.5.2)
+
+- **O dispositvo cria seu próprio GUA utilizando as informações da mensagem de RA(prefixo, comprimento do prefixo e endereço de gateway padrão). SLAAC não tem estado.**
+
+56. Como funciona o método 2: SLAAC e DHCPv6 stateless?(12.5.3)
+
+- **É enviado uma mesangem de RS para todos os roteadores.**
+- **O roteador envia uma mesangem RA para todos os nós com o método 2 (SLAAC e DHCPv6) especificado. Aqui estão as informações de prefixo, comprimento do prefixo e gateway padrão. Mas você precisará obter informações de DNSde um servidor DHCPv6.**
+- **O PC envia uma mensagem de solicitação DHCPv6 para todos os servidores DHCPv6. "Usei o SLAAC para criar meu endereço IPv6 e obter meu endereço de gateway padrão, mas preciso de outras informações de um servidor DHCPv6 sem estado."**
+
+57. Como funciona o método 3: DHCPv6 com estado?(12.5.4)
+
+- **É enviado uma mesangem de RS para todos os roteadores.**
+- **O roteador envia uma mesangem RA para todos os nós com o método 3 (DHCPv6 stateful) especificado, "Eu sou seu gateway padrão, mas você precisa pedir a um servidor DHCPv6 com estado o seu endereço IPv6 e outras informações".**
+- **O PC envia uma mesagem de solicitação DHCPv6 para todos os servidores DHCPv6, "Recebi meu endereço de gateway padrão da mesangem RA, mas preciso de um endereço de IPv6 e todas as demais informações de endereçamento de um servidor DHCPv6 com estado."**
+
+58. Qual o unico modo de receber o endereço de gateway padrão?(12.5.4)
+
+- **A partir da mensagem RA. O servidor DHCPv6 stateless ou stateful não fornece o endereço de gateway padrão.**
+
+59. Para quais tipos de mensagem RA o cliente deve gerar seu próprio ID de interface?(15.5.5)
+
+- **SLAAC ou SLAAC com DHCPv6 stateless.**
+
+60. Quando o cliente recebe uma mensagem RA SLAAC ou SLAAC com DHCPv6 stateless, como o ID da interface pode ser gerada?(12.5.5)
+
+- **Por meio do processo  identificador exclusivo estendido EUI-64 ou de um número de 64 bits gerado aleatoriamente.**
+
+61. Como o método identificador exclusivo estendido (EUI) ou processo EUI-64 modificado é realizado?(12.5.6)
+
+![](figuras/EUI-64.jpg)
+
+62. Como é composto o endereço IPv6 formado a partir do método identificador exclusivo estendido (EUI) ou processo EUI-64 modificado?(12.5.6)
+
+- **[MAC OUI(24bits com o sétimo bit invertido), fffe(16bits), MAC indentificador de dispositivo\]**
+
+63. Como é possível garantir a exclusividade de qualquer endereço IPv6 unicast?(12.5.7)
+
+- **O cliente pode usar um processo conhecido como detecção de endereço duplicado (DAD). Isso equivale a uma solicitação ARP para seu próprio endereço. Se não houver resposta, significa que o endereço é exclusivo.**
+
+64. Verdadeiro ou falso. As mensagens de RA são enviadas a todos os roteadores IPv6 por hosts solicitando informações de endereçamento.(12.5.8)
+
+- **Falso.**
+
+65. Qual método de endereçamento dinâmico para GUAs é aquele em que os dispositivos dependem exclusivamente do conteúdo da mensagem RA para suas informações de endereçamento?(12.5.8)
+
+- **Método 1:SLAAC**
+
+66. Qual método de endereçamento dinâmico para GUAs é aquele em que os dispositivos contam apenas com um servidor DHCPv6 para obter suas informações de endereçamento?(12.5.8)
+
+- **Método 3: DHCPv6 com estado.**
+
+67. Qual método de endereçamento dinâmico para GUAs é aquele em que os dispositivos obtêm sua configuração IPv6 em uma mensagem RA e solicitam informações DNS de um servidor DHCPv6?(12.5.8)
+
+- **Método 2: SLAAC e DHCPv6 stateless.**
+
+68. Quais são os dois métodos que um dispositivo pode usar para gerar seu próprio ID de interface IPv6?(12.5.8)
+
+- **EUI-64 e Gerado aleatoriamente.**
+
+69. Quando um endereço de link-local LLA é atribuído dinamicamente?(12.6.4)
+
+- **Assim que o GUA for atribuído a interface de rede.**
+
+70. Em uma interface serial de um roteador cisco, como o método de EUI-64 é implementado para gerar o ID da interface?(12.6.4)
+
+- **Interfaces seriais não tem MAC, então o Cisco IOS usa o endereço MAC da primeira interface Ethernet disponível.**
+
+71. Qual o procedimento para trocar o IPv6 de uma interface de rede?(12.6.6-packettracert)
+
+- **Deve remover o endereço incorreto ou então o endereço correto e o endereço incorreto permanecerão configurados na interface.**
+
+72. Qual comando é utilizado para remover um endereço IPv6?(12.6.6 packettracert)
+
+- **R1(config-if)# no ipv6 address 2001:db8:1:5::1/64**
+
+73. Qual o prefixo dos endereços multicast em IPv6?(12.7.1)
+
+- **ff00::/8**
+
+74. Quas são os tipos de endereço multicast IPv6?(12.7.1)
+
+- **multicast conhecidos(comuns) e multicast do nó solicitados**
+
+75. O que são os endereços multicast conhecidos(comuns)?(12.7.2)
+
+- **endereços multicast reservados para grupos predefinidos de dispositivos. Um endereço multicast atribuído é um único endereço usado para acessar um grupo de dispositivos que executam um serviço ou um protocolo comum.**
+
+76. Qual o multicast de todos os nós e para que serve?(12.7.2)
+
+- **ff02::1 e serve como o endereço broadcast do IPv4.**
+
+77. Qual endereço multicast dos roteadores?(12.7.2)
+
+- **ff02::2**
+
+78. Quando os roteadores tornam-se membro do grupo multicast ff02::2?(12.7.2)
+
+- **Quando inserido o comando ipv6 unicast-routing.**
+
+79. O que é um endereço multicast de nó solicitado?(12.7.3)
+
+- **É semelhante ao endereço multicast all-nodes. A vantagem do endereço multicast do nó solicitado é que ele é mapeado para um endereço multicast Ethernet especial.**
+
+80. Qual a vantagem dos endereços multicast do nó solicitado em relação aos endereços multicast IPv4?(12.7.3)
+
+- **A placa de rede Ethernet filtre o quadro, examinando o endereço MAC de destino sem enviá-lo ao processo IPv6 para ver se o dispositivo é o alvo pretendido do pacote IPv6.**
+
+81. Verdadeiro ou falso? O IPv6 foi projetado com a sub-rede em mente.(12.8.4)
+
+- **Verdadeiro.**
+
+82. Qual campo em um GUA IPv6 é usado para sub-redes?(12.8.5)
+
+- **ID da Sub-Rede.**
+
+83. Dado um prefixo de roteamento global /48 e um prefixo /64, qual é a parte da sub-rede do seguinte endereço: 2001:db8:cafe: 1111:22:3333:4444:5555?(12.8.5)
+
+- **111**
+
+84. Dado um prefixo de roteamento global /32 e um prefixo /64, quantos bits seriam alocados para o ID de sub-rede?(12.8.5)
+
+- **32**
+
+85. Qual é o formato válido mais compactado possível do endereço IPv6 2001:0DB8:0000:AB00:0000:0000:0000:1234?(12.9.3)
+
+- **2001:DB8:0:AB00::1234**
+
+86. Qual é o prefixo associado ao endereço IPv6 2001:DB8:D15:EA:CC44::1/64?(12.9.4)
+
+- **2001:DB8:D15:EA::/64**
+
+87. Que tipo de endereço é atribuído automaticamente a uma interface quando o IPv6 está habilitado nessa interface?(12.9.4)
+
+- **Link local**
+
+88. Qual prefixo de rede IPv6 é destinado apenas a links locais e não pode ser roteado?(12.9.4)
+
+- **FE80::/10**
+
+89. Qual é o propósito do comando ping ::1?(12.9.4)
+
+- **Testar a configuração interna de um host IPv6.**
+
+90. Qual é a ID da interface do endereço IPv6 2001:DB8::1000:A9CD:47FF:FE57:FE94/64?(12.9.4)
+
+- **A9CD:47FF:FE57:FE94**
+
+91. Qual é o endereço de rede para o endereço IPv6 2001: DB8: AA04: B5 :: 1/64?(12.9.4)
+
+- **2001:DB8:AA04:B5::/64**
+
+92. O que é indicado por um ping bem-sucedido para o endereço IPv6::1?(12.9.4)
+
+- **O IP está instalado corretamente no host.**
+
+93. Qual é a representação mais comprimida do endereço IPv6 2001:0db8:0000:abcd:0000:0000:0000:0001?(12.9.4)
+
+- **2001:db8:0:abcd::1**
+
+94. Qual é a configuração mínima para uma interface de roteador que esteja participando do roteamento IPv6?(12.9.4)
+
+- **Deve ter um endereço de link-local.**
+
+95. No mínimo, qual é o endereço exigido para interfaces habilitadas para IPv6?(12.9.4)
+
+- **link-local**
+
+96. Quais são as três partes de um endereço unicast global IPv6?(12.9.4)
+
+- **prefixo de roteamento global, ID da sub-rede e ID da interface.**
+
+97. Sua organização é emitido o prefixo IPv6 de 2001:db8:130f::/48 pelo provedor de serviços. Com esse prefixo, quantos bits estão disponíveis para uso na sua organização, para criar subredes na barra /64, se os bits do ID da interface não forem emprestados?(12.9.4)
+
+- **16**
+
+98. Que tipo de endereço IPv6 não é roteável e usado apenas para comunicação em uma única sub-rede?(12.9.4)
+
+- **Endereço de link-local**
 
 in progress...
 
