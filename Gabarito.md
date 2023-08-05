@@ -3474,10 +3474,64 @@
 
 - **terminal monitor**
 
-20. 
+20. Qual o intervalo de endereço atribuído automaticamente pelo Windows quando ele não encontra um DHCP e qual o nome dado a esse recurso?(17.7.3)
 
+- **169.254.0.0/16 , endereçamento IP privado automático (APIPA).**
 
-in progress...
+21. Que consideração de design de rede seria mais importante para uma grande empresa do que para uma pequena empresa?(17.8.5)
+
+- **Redundância.**
+
+22. Um técnico de redes recém contratado recebeu a tarefa fazer o pedido de um novo hardware para uma empresa de pequeno porte com previsão de grande crescimento. Qual deve ser a principal preocupação do técnico ao escolher os novos dispositivos?(17.8.5)
+
+- **Dispositivos modulares.**
+
+23. Um técnico de redes está investigando a conectividade da rede entre um computador e um host remoto com o endereço 10.1.1.5. Qual comando, quando executado em um computador com Windows, exibirá o caminho até o host remoto?(17.8.5)
+
+- **tracert 10.1.1.5**
+
+24. Um usuário não pode acessar o site ao digitar ht​tp://ww​w.cisco.com em um navegador da web, mas pode acessar o mesmo site digitando ht​tp://72.163.4.161. Qual o problema?
+
+- **DNS**
+
+25. Por padrão, para onde são enviadas as mensagens de saída de depuração do Cisco IOS?(17.8.5)
+
+- **Linha de console.**
+
+26. Qual elemento ao escalonar uma rede envolve a identificação das topologias físicas e lógicas?(17.8.5)
+
+- **Documentação de rede.**
+
+27. Que mecanismo pode ser implementado em uma pequena rede para ajudar a minimizar a latência de rede para aplicativos de streaming em tempo real?(17.8.5)
+
+- **QoS**
+
+28. Qual processo falhou se um computador windows não pôde acessar a Internet e recebeu um endereço IP 169.254.142.5?(17.8.5)
+
+- **DHCP**
+
+29. Uma pequena empresa tem apenas um roteador como ponto de saída para seu ISP. Qual solução poderia ser adotada para manter a conectividade se o próprio roteador, ou sua conexão com o ISP, falhar?(17.8.5)
+
+- **Ter um segundo roteador conectado a outro ISP.**
+
+30. Quando um administrador deve estabelecer uma linha de base de rede?(17.8.5)
+
+- **Em intervalos regulares durante um periodo de tempo.**
+
+31. Um técnico suspeita que uma determinada conexão de rede entre dois Cisco Switches apresenta uma incompatibilidade duplex. Qual comando o técnico deve usar para ver os detalhes da Camada 1 e da Camada 2 de uma porta de switch?(17.8.5)
+
+- **show interfaces**
+
+32. Veradeiro ou falso. O CDP pode ser desativado globalmente ou em uma interface especifica?(17.8.5)
+
+- **Verdadeiro.**
+
+33. Qual fator deve ser considerado no design de uma pequena rede quando os dispositivos estão sendo escolhidos?
+(17.8.5)
+
+- **Custo dos disppositivos.**
+
+Complete!
 
 
 
