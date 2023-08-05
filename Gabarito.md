@@ -23,7 +23,7 @@
 
 6. Quais conexões são portas especializadas em um dispositivo de rede que se conectam a redes individuais?(1.3.3)
 
-- **Os dispositivos retêm os pacotes na memória até que os recursos estejam disponíveis para transmiti-los.** 
+- **Interfaces.** 
 
 7. Que tipo de topologia de rede permite que você veja quais dispositivos finais estão conectados a quais dispositivos intermediários e que mídia está sendo usada?(1.3.3)
 
@@ -2012,7 +2012,7 @@
 
 - **AND**
 
-2. Quais são os tipos de endereços IP que existe em cada rede?(11.1.6)
+2. Quais são os tipos de endereços IP que existe em cada rede IPv4?(11.1.6)
 
 - **Endereço de rede;**
 - **Endereços de host;**
@@ -2024,7 +2024,7 @@
 
 4. Host-A has the IPv4 address and subnet mask 172.16.4.100 255.255.0.0. What is the network address of Host-A?(11.1.8)
 
-- **172.16.00**
+- **172.16.0.0**
 
 5. Como subdividir redes IPv4 pode melhorar o desempenho da rede?(11.2.2)
 
@@ -2108,7 +2108,7 @@
 
 25. Qual o range de endereços multicast classe D?(11.3.5)
 
-- **224.0.0.0 a 239.0.0.0 **
+- **224.0.0.0 a 239.0.0.0**
 
 26. Qual o range de endereços especial classe E?(11.3.5)
 
@@ -2198,59 +2198,59 @@
 
 - **27**
 
-48. Quantos endereços de host válidos estão disponíveis em uma sub-rede IPv4 que está configurada com uma máscara /26?
+48. Quantos endereços de host válidos estão disponíveis em uma sub-rede IPv4 que está configurada com uma máscara /26?(11.10.4)
 
 - **62**
 
-49. Qual máscara de sub-rede seria usada se fossem 5 bits de host disponíveis? 
+49. Qual máscara de sub-rede seria usada se fossem 5 bits de host disponíveis?(11.10.4)
 
 - **255.255.255.224**
 
-50. Um administrador de redes divide a rede 192.168.10.0/24 em sub-redes com máscaras /26. Quantas sub-redes de mesmo tamanho são criadas?
+50. Um administrador de redes divide a rede 192.168.10.0/24 em sub-redes com máscaras /26. Quantas sub-redes de mesmo tamanho são criadas?(11.10.4)
 
 - **4**
 
-51. Qual máscara de sub-rede é representada pela notação em barra /20?
+51. Qual máscara de sub-rede é representada pela notação em barra /20?(11.10.4)
 
 - **255.255.240.0**
 
-52. Qual afirmativa sobre máscara de sub-rede de tamanho variável (VLSM) é verdadeira?​
+52. Qual afirmativa sobre máscara de sub-rede de tamanho variável (VLSM) é verdadeira?​(11.10.4)
 
 - **O tamanho de cada sub-rede pode ser diferente, dependendo dos requisitos.**
 
-53. Por que um dispositivo da camada 3 executa um AND entre um endereço IP destino e a máscara de sub-rede? 
+53. Por que um dispositivo da camada 3 executa um AND entre um endereço IP destino e a máscara de sub-rede?(11.10.4)
 
 - **Para identificar o endereço da rede destino.**
 
-54. Quantos endereços IP úteis estão disponíveis na rede 192.168.1.0/27? 
+54. Quantos endereços IP úteis estão disponíveis na rede 192.168.1.0/27?(11.10.4)
 
 - **30**
 
-55. Qual máscara de sub-rede seria usada se exatamente 4 bits de host estivessem disponíveis? 
+55. Qual máscara de sub-rede seria usada se exatamente 4 bits de host estivessem disponíveis?(11.10.4)
 
 - **255.255.255.240**
 
-56. Quais duas partes são componentes de um endereço IPv4? (Escolha duas.)
+56. Quais duas partes são componentes de um endereço IPv4?(11.10.4)
 
 - **Pate da rede e porção dos hosts.**
 
-57. Se um dispositivo de rede tiver uma máscara de /26, quantos endereços IP estarão disponíveis para os hosts nessa rede? 
+57. Se um dispositivo de rede tiver uma máscara de /26, quantos endereços IP estarão disponíveis para os hosts nessa rede?(11.10.4) 
 
 - **62**
 
-58. O que o endereço IP 172.17.4.250/24 representa?
+58. O que o endereço IP 172.17.4.250/24 representa?(11.10.4)
 
 - **Endereço de host.**
 
-59. Se um dispositivo de rede tiver uma máscara de /28, quantos endereços IP estarão disponíveis para os hosts nessa rede? 
+59. Se um dispositivo de rede tiver uma máscara de /28, quantos endereços IP estarão disponíveis para os hosts nessa rede?(11.10.4) 
 
 - **14**
 
-60. Qual é o objetivo de combinar a máscara de sub-rede com um endereço IP?
+60. Qual é o objetivo de combinar a máscara de sub-rede com um endereço IP?(11.10.4)
 
 - **Determinar a sub-rede a qual o host pertence.**
 
-61. Um administrador de redes está variando as divisões em sub-rede de uma rede. A menor sub-rede tem máscara 255.255.255.224. Quantos endereços de host utilizáveis esta sub-rede fornecerá?
+61. Um administrador de redes está variando as divisões em sub-rede de uma rede. A menor sub-rede tem máscara 255.255.255.224. Quantos endereços de host utilizáveis esta sub-rede fornecerá?(11.10.4)
 
 - **30**
 
@@ -2290,11 +2290,11 @@
 
 9. O que é um hexteto?(12.2.1)
 
-- **segmento de 16 bits ou quatro valores hexadecimais.**
+- **Segmento de 16 bits ou quatro valores hexadecimais.**
 
 10. O que é formato preferêncial do IPv6?(12.2.1)
 
-- **Significa que o endereço IPv6 é gravado usando todos os 32 dígitos hexadecimais.**]
+- **Significa que o endereço IPv6 é gravado usando todos os 32 dígitos hexadecimais.**
 
 11. Quais são os dois modos de reduzir a notação de endereços IPv6?(12.2.2)
 
@@ -2565,7 +2565,7 @@
 
 75. O que são os endereços multicast conhecidos(comuns)?(12.7.2)
 
-- **endereços multicast reservados para grupos predefinidos de dispositivos. Um endereço multicast atribuído é um único endereço usado para acessar um grupo de dispositivos que executam um serviço ou um protocolo comum.**
+- **Endereços multicast reservados para grupos predefinidos de dispositivos. Um endereço multicast atribuído é um único endereço usado para acessar um grupo de dispositivos que executam um serviço ou um protocolo comum.**
 
 76. Qual o multicast de todos os nós e para que serve?(12.7.2)
 
@@ -2649,7 +2649,7 @@
 
 96. Quais são as três partes de um endereço unicast global IPv6?(12.9.4)
 
-- **prefixo de roteamento global, ID da sub-rede e ID da interface.**
+- **Prefixo de roteamento global, ID da sub-rede e ID da interface.**
 
 97. Sua organização é emitido o prefixo IPv6 de 2001:db8:130f::/48 pelo provedor de serviços. Com esse prefixo, quantos bits estão disponíveis para uso na sua organização, para criar subredes na barra /64, se os bits do ID da interface não forem emprestados?(12.9.4)
 
@@ -2659,8 +2659,825 @@
 
 - **Endereço de link-local**
 
-in progress...
+# 13 Mensagens ICMP
 
+1. Quais são as mensagens ICMP comuns ao ICMPv4 e ICMPv6(13.1.1)
+
+- **Acessibilidade do host, Destino ou serviço inalcançável eTempo excedido.**
+
+2. Quais são os códigos e seus significados para ICMPv4?(13.1.3)
+
+- **0 = rede inalcançável;**
+- **1 = host inalcançável;**
+- **2 = protocolo inalcançável; e**
+- **3 = porta inalcançável.**
+
+3. Quais são os códigos e seus significados para ICMPv6?(13.1.3)
+
+- **0 - Nenhuma rota para o destino;**
+- **1 - A comunicação com o destino é administrativamente proibida (por exemplo, firewall);**
+- **2 - Além do escopo do endereço de origem;**
+- **3 - Endereço inacessível; e**
+- **4 - porta inalcançável.**
+
+4. Quais são os protocolos utilizados que fazer parte do protocolo ND ou NDP?(13.1.5)
+
+- **Mensagem de Solicitação de Roteador (RS);**
+- **Mensagem de Anúncio de Roteador (RA);**
+- **Mensagem de solicitação de vizinhos (NS); e**
+- **Mensagem de anúncio de vizinhos (NA).**
+
+5. Quais mensagens ICMPv6 são utilizadas para alocação de endereços dinâmicos?(13.1.5)
+
+- **RS e RA.**
+
+6. Quais mensagens ICMPv6 são utilizadas para detecção de endereço duplicado e resolução de endereço?(13.1.5)
+
+- **NS e NA.**
+
+7. Como funciona o DAD (detecção de endereço duplicado)?(13.1.5)
+
+- **Verifica a exclusividade de um endereço, enviando uma mensagem NS com seu próprio endereço IPv6 como o endereço IPv6 de destino.**
+
+8. Quais são as respostas possíveis para um DAD (detecção de endereço duplicado)?(13.1.5)
+
+- **NA(O endereço está em uso) e não receber resposta em ccerto período(endereço não está em uso).**
+
+9. Que tipo de mensagem ICMPv6 um host enviaria para adquirir uma configuração IPv6 ao inicializar?(13.1.6)
+
+- **Mensagem de solicitação de roteador(NS).**
+
+10. O que pode indicar se a resposta não é recebida dentro do tempo de espera?(13.2.1)
+
+- **Um problema ou recursos de segurança que bloqueiam as mensagens de ping foram ativados na rede.**
+
+11. Por que é comum o primeiro ping resuntar em tempo limite excedido?(13.2.1)
+
+- **Quando a resolução de endereço (ARP ou ND) precisar ser executada antes de enviar a Solicitação de eco ICMP.**
+
+12. Quais informações o utilitário ping informa após concluir sua operação?(13.2.1)
+
+- **Taxa de sucesso e o tempo médio de ida e volta para o destino.**
+
+13. Um técnico está solucionando problemas de uma rede onde se suspeita que um nó defeituoso no caminho da rede esteja causando a eliminação de pacotes. O técnico tem apenas o endereço IP do dispositivo de ponto final e não tem nenhum detalhe dos dispositivos intermediários. Qual comando o técnico pode usar para identificar o nó defeituoso?(13.3.4)
+
+- **tracert**
+
+14. Um usuário que não pode se conectar ao servidor de arquivos entra em contato com o help desk. O técnico do help desk solicita que o usuário faça ping no endereço IP do gateway padrão configurado na estação de trabalho. Qual é o propósito desse comando ping?(13.3.4)
+
+- **Testar se o host é capaz de acessar hosts em outras redes.**
+
+15. O que é uma função do comando tracert que difere do ping comando quando eles são usados em uma estação de trabalho?(13.3.4)
+
+- **O comando tracert mostra as informações dos roteadores no caminho.**
+
+16. Qual mensagem ICMP é usada pelo utilitário traceroute durante o processo de localizar o caminho entre dois hosts finais?(13.3.4)
+
+- **Tempo escedido.**
+
+17. Qual protocolo é usado pelo IPv4 e IPv6 para fornecer mensagens de erro?(13.3.4)
+
+- **ICMP**
+
+18. Um administrador de rede está testando a conectividade de rede emitindo o comando ping em um roteador. Qual símbolo será exibido para indicar que um tempo expirou durante a espera de uma mensagem de resposta de eco ICMP?(13.3.4)
+
+- **O ponto "."**
+
+19.  Um administrador de rede está testando a conectividade de rede emitindo o comando ping em um roteador. Qual símbolo será exibido para indicar recebimento da mensagem ICMP de Resposta de Eco?(13.3.4)
+
+- **Esclamação "!"**
+
+20. Um administrador de rede está testando a conectividade de rede emitindo o comando ping em um roteador. Qual símbolo será exibido para indicar uma mensagem ICMP de destino inalcançável foi recebida?(13.3.4)
+
+- **Letra "U"**
+
+21. Quais são as duas coisas que podem ser determinadas usando o comando ping?(13.3.4)
+
+- **A média do tempo gasto por um pacote para alcançar o destino e para que a resposta retorne a origem.**
+- **Se o dispositivo destino pode ser alcançado pela rede.**
+
+22. Um usuário chama para informar que um PC não pode acessar a Internet. O técnico de rede pede ao usuário para emitir o comando ping 127.0.0.1 em uma janela do prompt de comando. O usuário relata que o resultado é quatro respostas positivas. Que conclusão pode ser tirada com base neste teste de conectividade?(13.3.4)
+
+- **A implementação de TCP/IP é funcional.**
+
+23. Qual comando pode ser usado para testar a conectividade entre dois dispositivos usando mensagens de solicitação de eco e resposta de eco?(13.3.4)
+
+- **ping**
+
+24. Que conteúdo de campo é usado pelo ICMPv6 para determinar se um pacote expirou?(13.3.4)
+
+- **Campo limite de salto.**
+
+25. Qual protocolo fornece feedback do host de destino para o host de origem sobre erros na entrega de pacotes?(13.3.4)
+
+- **ICMP**
+
+26. Um administrador de rede consegue fazer ping com êxito no servidor em www.cisco.com, mas não consegue fazer ping no servidor da Web da empresa localizado em um ISP em outra cidade. Que ferramenta ou comando podem ajudar a identificar o roteador específico em que o pacote foi perdido ou atrasado?(13.3.4)
+
+- **traceroute**
+
+27. Qual mensagem é enviada por um host para verificar a exclusividade de um endereço IPv6 antes de usar esse endereço?(13.3.4)
+
+- **Solicitação de vizinho.**
+
+
+# 14 Camada de transporte
+
+1. Quais protocolos são incluidos na camada de transporte?(14.1.1)
+
+- **TCP (Transmission Control Protocol) e UDP (User Datagram Protocol).**
+
+2. Quais são as responsabilidades da camada de tansporte?(14.1.2)
+
+- **Rastreamento de Conversações Individuais;**
+- **Segmentação de Dados e Remontagem de Segmentos;**
+- **Adicionar Informações de Cabeçalho;**
+- **Identificação das Aplicações; e**
+- **Multiplexação das Conversas.**
+
+3. Como é conhecido cada conjunto de dados que flui entre um aplicativo de origem e um aplicativo?(14.1.2)
+
+- **Conversa.**
+
+4. Como podem ser chamados os PDUs da camada de transporte?(14.1.2)
+
+- **Segmentos ou datagramas.**
+
+5. A que é atribuído uma porta de rede?(14.1.2)
+
+- **Cada processo que precisa acessar a rede.**
+
+6. O que permite que a multiplexação funcione?(14.1.2)
+
+- **A segmentação.**
+
+7. O TCP fornece confiabilidade e controle de fluxo usando quias operaçõs básicas?(14.1.4)
+
+- **Número e rastreamento de segmentos de dados transmitidos para um host específico a partir de um aplicativo específico;**
+- **Confirmar dados recebidos;**
+- **Retransmitir todos os dados não confirmados após um determinado período de tempo;**
+- **Dados de sequência que podem chegar em ordem errada; e**
+- **Enviar dados a uma taxa eficiente que seja aceitável pelo receptor.**
+
+8. Por que o TCP é conhecido como um protocolo orientado a conexão?(14.1.4)
+
+- **Ele estabelecer uma conexão entre o remetente e o receptor mantendo o estado de uma conversa e rastrea as informações.**
+
+9. Em que o UDP divide os dados da aplicação?(14.1.5)
+
+- **Datagramas.**
+
+10. Qual camada é responsável por estabelecer uma sessão de comunicação temporária entre os aplicativos de host de origem e destino?(14.1.7)
+
+- **Camada de transporte.**
+
+11. Qual protocolo de camada de transporte seria usado para aplicativos VoIP?(14.1.7)
+
+- **UDP**
+
+12. Quantos campos e qual o tamanho do cabeçalho TCP?(14.2.2)
+
+- **10 campos e 20 bytes.**
+
+13. Quais são os campos do cabeçalho TCP?(14.2.2)
+
+# IMAGEM DA 14.2.2
+
+14. Qual protocolo de camada de transporte garante entrega confiável da mesma ordem?(14.2.5)
+
+- **TCP**
+
+15. Dentre os protocolos FTP,HTTP,ICMP,TFTP e VoIP, quais usariam TCP?(14.2.2)
+
+- **FTP e HTTP**
+
+16. Quantos campo e qual o tamanho do UDP?(14.3.2)
+
+- **4 e 9 bytes**
+
+17 Quais são os campos do UDP?(14.3.2)
+
+# IMAGEM UDP 14.3.2
+
+18. Quando o DNS usará TCP?(14.3.4)
+
+- **Quando a resposta DNS for maior que 512 bytes.**
+
+19. Qual dos seguintes é um protocolo de camada de transporte de entrega de melhor esforço sem estado?(14.3.5)
+
+- **UDP**
+
+20. O que é um socket?(14.4.2)
+
+- **A combinação do endereço IP de origem e o número de porta de origem, ou do endereço IP de destino e o número de porta de destino.**
+
+21. Como é gerado o número da porta de origem de um TCP ou UDP?(14.4.1)
+
+- **Dinamicamente pelo host.**
+
+22. Qual o intervalo de portas para os protocolos TCP e UDP?(14.4.3)
+
+- **0 a 65535**
+
+23. Em quais grupos está dividido as portas e qual seus intervalos?(14.4.3)
+
+- **Portas comuns(0 a 1023), Portas registradas(1024 a 49151) e Particular e/ou portas dinâmicas(49152 a 65535).**
+
+24. Para que serve as portas comuns?(14.4.3)
+
+- **São reservados para serviços comuns ou populares e aplicativos como navegadores da web, clientes de e-mail e acesso remoto clientes.**
+
+25. Para que serve as portas registradas?(14.4.3)
+
+- **São atribuídos pela IANA a uma entidade solicitante ao para que aplicações não utilizem as portas comuns.**
+
+26. Qual serviço utiliza a porta 1812?(14.4.3)
+
+- **Servidor RADIUS processo de autenticação.**
+
+27. A comunicação entre dois servidores DNS sempre utiliza que protocolo da camada de transporte?(14.4.3)
+
+- **TCP**
+
+28. Qual a porta para o Protocolo de transferência de arquivos (FTP) - Dados?(14.4.3)
+
+- **20**
+
+29. Qual a porta para o Protocolo de transferência de arquivos (FTP) - Controle?(14.4.3)
+
+- **21**
+
+30. Qual a porta para o Secure Shell (SSH)?(14.4.3)
+
+- **22**
+
+31. Qual a porta para o Telnet?(14.4.3)
+
+- **23**
+
+32. Qual a porta para o Protocolo SMTP?(14.4.3)
+
+- **25**
+
+33. Qual a porta para o Protocolo DNS?(14.4.3)
+
+- **53**
+
+34. Qual a porta para o Protocolo de Configuração Dinâmica de Host (DHCP) - Servidor?(14.4.3)
+
+- **67**
+
+35. Qual a porta para o Protocolo de Configuração Dinâmica de Host (DHCP) - Cliente?(14.4.3)
+
+- **68**
+
+36. Qual a porta para o Protocolo de Transferência Trivial de Arquivo (TFTP)?(14.4.3)
+
+- **69**
+
+37. Qual a porta para o Protocolo HTTP?(14.4.3)
+
+- **80**
+
+38. Qual a porta para o Protocolo POP3 (Post Office Protocol - Protocolo de E-mail)?(14.4.3)
+
+- **110**
+
+39. Qual a porta para o Protocolo IMAP?(14.4.3)
+
+- **143**
+
+40. Qual a porta para o Protocolo de Gerenciamento Simples de Rede (SNMP)?(14.4.3)
+
+- **161**
+
+41. Qual a porta para o HTTPS (Secure Hypertext Transfer Protocol - Protocolo de Transferência de Hipertexto Seguro)?(14.4.3)
+
+- **443**
+
+42. Qual comando no windows visualiza a lista de conversas atuais?(14.4.4)
+
+- **netstat**
+
+43. Suponha que um host com endereço IP 10.1.1.10 deseja solicitar serviços Web de um servidor em 10.1.1.254. Qual seria a possível representação de soquete?(14.4.5)
+
+- **10.1.1.10:1099, 10.1.1.254:80**
+
+44. Qual grupo de portas inclui números de porta para aplicativos FTP, HTTP e TFTP?(14.4.5)
+
+- **Portas conhecidas**
+
+45. Qual comando do Windows exibirá os protocolos em uso, o endereço local e os números de porta, o endereço externo e os números de porta e o estado da conexão?(14.4.5)
+
+- **Netstat**
+
+46. Quando uma porta é considera aberta?(14.5.1)
+
+- **Quando a porta é atribuída a um servidor.**
+
+47. Qual processo é utilizado para iniciar um conexão TCP?(14.5.2)
+
+- **Handshake de três vias.**
+
+48. Quantos segmentos e quais flags são usadas para iniciar um conversa TCP?(14.5.3)
+
+- **3, SYN, SYN ACK, ACK**
+
+49. Quantos segmentos e quais flags são usadas para finalizar uma conversa TCP?(14.5.3)
+
+- **4, FIN, ACK, FIN, ACK**
+
+50. Quais são as flags TCP?(14.5.4)
+
+- **URG - Campo de ponteiro urgente significativo.**
+- **ACK - Indicador de confirmação usado no estabelecimento de conexão e encerramento de sessão.**
+- **PSH - Função Push.**
+- **RST - Redefina a conexão quando ocorrer um erro ou tempo limite.**
+- **SYN - Sincronizar números de sequência usados no estabelecimento de conexão.**
+- **FIN - Não há mais dados do remetente e usados no encerramento da sessão.**
+
+51. Quais bandeiras de bits de controle são usadas durante o aperto de mão de três vias?(14.5.6)
+
+- **SYN e ACK**
+
+52. Quantas segmentos são necessárias para encerrar ambas as sessões entre dois hosts?
+
+- **4**
+
+53. O que o campo sequência em um TCP identifica?(14.6.3)
+
+- **O primeiro byte de dados no segmento que está sendo transmitido.**
+
+54. O que o campo ACK em um TCP identifica?(14.6.3)
+
+- **O próximo byte esperado.**
+
+55. O host A envia os segmentos 1 a 10 para o host B. Se todos os segmentos chegarem, exceto os segmentos 3 e 4, o host B responderia com confirmação especificando que o próximo segmento esperado é ? e o que o HOST A faria?(14.6.3)
+
+- **É o segmento 3. O host A, portanto, reenviaria os segmentos 3 a 10.**
+
+56. O que é o SACK?(14.6.3)
+
+- **Um recurso TCP opcional chamado reconhecimento seletivo. Ele possibilita que apenas os segmentos perdidos sejam reenviados.**
+
+57. O host A envia os segmentos 1 a 10 para o host B. Se todos os segmentos chegarem, exceto os segmentos 3 e 4, o host B responderia com confirmação especificando que o próximo segmento esperado é ? e o que o HOST A faria sendo que o recurso SACK está ativado?(14.6.3)
+
+- **É o segmento 3, e reconhece seletivamente os segmentos 5 a 10 (SACK 5-10). O host A só reenviar os segmentos 3 e 4.**
+
+58. O que o tamanho da janela determina?(14.6.5)
+
+- **O número de bytes que podem ser enviados antes de esperar uma confirmação.**
+
+59. Quando o tamanho da janela inicial é estabelecido?(14.6.5)
+
+- **Quando a sessão é estabelecida durante o handshake triplo.**
+
+60. O que o host origem faz após enviar o quantidade de bytes estabelidas na janela?(14.6.5)
+
+- **Ele espera a confirmação de recebimento para continuar enviandos os dados.**
+
+61. Um janela de 10000 bytes é estabelecida. PC A recebe uma confirmação com o número de confirmação 2.921, que é o próximo byte esperado. PC A recebeu uma confirmação antes do limite da janela. O que PC A faz?(14.6.5)
+
+- **PC A irá incrementar 2.920 bytes. Isso altera a janela de envio de 10.000 bytes para 12.920. O PC A agora pode continuar enviando até outros 10.000 bytes para o PC B.**
+
+62. O que é janela deslizante?(14.6.5)
+
+- **Um destino que envia confirmações enquanto processa os bytes recebidos e o ajuste contínuo da janela de envio de origem.**
+
+63. O que a janela deslizante permite?(14.6.5)
+
+- **Que o emissor transmita continuamente segmentos, desde que o receptor esteja reconhecendo segmentos anteriores.**
+
+64. O que é o tamanho máximo do segmento (MSS)?(14.6.6)
+
+- **O MSS faz parte do campo de opções no cabeçalho TCP que especifica a maior quantidade de dados, em bytes, que um dispositivo pode receber em um único segmento TCP.**
+
+65. Qual é o MSS comum?(14.6.6)
+
+- **1460**
+
+66. Como se determina o valor do MSS?(14.6.6)
+
+- **Um host determina o valor do campo de MSS subtraindo os cabeçalhos de IP e de TCP da MTU (Maximum transmission unit, Unidade máxima de transmissão) da Ethernet.**
+
+67. O que acontece quando um host de envio percebe que há congestionamento?(14.6.8)
+
+- **O host origem reduz o número de bytes que envia antes de receber uma confirmação do host de destino.**
+
+68. Qual campo é usado pelo host de destino para remontar segmentos na ordem original?(14.6.8)
+
+- **Número de sequência.**
+
+69. Qual campo é usado para fornecer controle de fluxo?(14.6.8)
+
+- **Tamanho da janela.**
+
+70. Como os datagramas UDP foram de ordem são procesados?(14.7.2)
+
+- **Na ordem que chegaram.**
+
+71. Por que o UDP é desejável para protocolos que fazem uma simples solicitação e resposta de transações?(14.7.5)
+
+- **Baixa sobrecarga.**
+
+72. Qual função da camada de transporte é usada para estabelecer uma sessão orientada a conexão?(14.8.3)
+
+- **Hadshake de 3 vias TCP.**
+
+73. Qual é a gama completa de portas TCP e UDP bem conhecidas?(14.8.3)
+
+- **0 a 1023**
+
+74. O que é um soquete?(14.8.3)
+
+- **A combinação de um endereço IP origem e número de porta ou um endereço IP de destino e um número de porta.**
+
+75. Como um servidor em rede gerencia solicitações de vários clientes para serviços diferentes?(14.8.3)
+
+- **Cada solicitação possui uma combinação de números de porta de origem e destino, provenientes de um endereço IP exclusivo.**
+
+76. O que acontece se parte de uma mensagem FTP não for entregue ao destino?(14.8.3)
+
+- **A parte da mensagem FTP que foi perdida é reenviada.**
+
+77. Que tipo de aplicações são mais adequadas para usar o protocolo UDP?(14.8.3)
+
+- **Aplicações que são sensívies a atrasos.**
+
+78. Com o congestionamento da rede, a origem soube da perda de segmentos TCP que foram enviados ao destino. Qual é uma maneira do protocolo TCP lidar com isso?(14.8.3)
+
+- **A origem diminui o volume de dados que pode ser transmitidos antes de receber uma confirmação do destino.**
+
+79. Qual é o propósito de usar um número de porta de origem em uma comunicação TCP?(14.8.3)
+
+- **Para manter o controle de váriaas conversas entre dispositivos.**
+
+80. Quais dois sinalizadores no cabeçalho TCP são usados em um handshake de três vias TCP para estabelecer conectividade entre dois dispositivos de rede?(14.8.3)
+
+- **SYN e ACK**
+
+81. Qual mecanismo TCP é usado para melhorar o desempenho, permitindo que um dispositivo envie continuamente um fluxo contínuo de segmentos, desde que o dispositivo também esteja recebendo as confirmações necessárias?(14.8.3)
+
+- **Janela deslizantes.**
+
+# 16 Fundamentos de segurança de rede
+
+1. Quais ameaças podem surgir depois que o agente de ameaça obtém acesso a rede?(16.1.1)
+
+- **Roubo de informação, Perda e manipulação de dados, Roubo de identidade e Interrupição de serviço.**
+
+2. O que são ameaças?(16.1.1)
+
+- **Os invasores que obtêm acesso modificando o software ou explorando vulnerabilidades.**
+
+3. O que é vulnerabilidade?(16.1.2)
+
+- **O grau de fraqueza em uma rede ou dispositivo..**
+
+4. Quais são as três principais ameaças ou fraquezas?(16.1.2)
+
+- **Política tecnológica, configuração e segurança.**
+
+5. Quais são as classes de ameaças físicas?(16.1.3)
+
+- **Ameaças de hardware, Ameaças ambientais, Ameaças elétricas e Ameaças à manutenção.**
+
+6. Quais são as etapas para o planejamento de segurança física?(16.1.3)
+
+- **Bloqueie os equipamentos e impeça o acesso não autoriazado por meio de portas, teto, piso elevado canais e fendas de ventilação; e**
+- **Monitore e controle a entrada com logs eletrônicos; e**
+- **Use câmeras de segurança.**
+
+7. Que tipo de ameaça é descrita quando um ator ameaça envia um vírus que pode reformatar seu disco rígido?(16.1.4)
+
+- **Perda ou manipulação de dados.**
+
+8. Que tipo de ameaça é descrita quando um ator ameaça faz compras on-line ilegais usando informações de crédito roubadas?(16.1.4)
+
+- **Roubo de identidade.**
+
+9. Que tipo de ameaça é descrita quando um ator ameaça impede que usuários legais acessem serviços de dados?(16.1.4)
+
+- **Interrupíção de serviço.**
+
+10. Que tipo de ameaça é descrita quando um ator ameaça rouba dados de pesquisa científica?(16.1.4)
+
+- **Roubo de informações.**
+
+11. Que tipo de ameaça é descrita quando um ator ameaça sobrecarrega uma rede para negar acesso à rede de outros usuários?(16.1.4)
+
+- **Interrupição de serviço.**
+
+12. Que tipo de ameaça é descrita quando um atores de ameaças altera os registros de dados?(16.1.4)
+
+- **Perda ou manipulação de dados.**
+
+13. Que tipo de ameaça é descrita quando um atores de ameaças está roubando o banco de dados de usuários de uma empresa?(16.1.4)
+
+- **Roubo de informações.**
+
+14. Que tipo de ameaça é descrita quando um ator ameaça se faz passar por outra pessoa para obter informações de crédito sobre essa pessoa?(16.1.4)
+
+- **Roubo de identidade.**
+
+15. O que significa malware?(16.2.1)
+
+- **Software malicioso.**
+
+16. Quais são os tipos de malware?(16.2.1)
+
+- **Virus, worms e cavalos de tróia.**
+
+17. Quais são as caracteristicas dos vírus?(16.2.1)
+
+- **Infectam arquivos e programas, se discemina infectando outros arquivos ou programas, vai de um computador para outro por meio do compartilhamento desses arquivos.**
+
+18. Quais são as caracteristicas dos worm?(16.2.1)
+
+- **É um software autonomo mal intencionado, se replica e usa recursos do sistema para se propagar pela rede.**
+
+19. Quais são as caracteristicas dos cavalos de tróia?(16.2.1)
+
+- **Não se replica. É feito para parecer um software legítimo. É propagado pela ação do usuário de compartilhar o programa ilegítimo.**
+
+20. Quais são as pricipais categorias de ataque à rede?(16.2.2)
+
+- **Ataques de reconhecimento, Ataques de acesso e Negação de serviço.**
+
+21. Quais ferramentas da internet podem ser usadas para determinar o espaço de IP de uma coporação?(16.2.2)
+
+- **nslookup e whois.**
+
+22. Quais ferramentas pode ser usadas para identificar os endereços  ativos?(16.2.2)
+
+- **fping ou gping.**
+
+23. Quais são os tipos de de ataque de acesso?(16.2.3)
+
+- **Ataques de senha, exploração de confiança, redirecionamento de portas e o intermediário (man-in-the-middle).**
+
+24. Quais tipos d ataque de senha um ator de ameaça pode implementar?(16.2.3)
+
+- **Ataques de força bruta, Ataques de cavalo de Tróia e Sniffers de pacotes.**
+
+
+25. Como funciona um ataque de exploração de confiança?(16.2.3)
+
+- **Um agente de ameaça usa privilégios não autorizados para obter acesso a um sistema, possivelmente comprometendo o alvo.**
+
+26. Como funciona um ataque de redurecionamento de porta?(16.2.3)
+
+- **Em um ataque de redirecionamento de porta, um agente de ameaça usa um sistema comprometido como base para ataques contra outros alvos.**
+
+27. Como funciona um ataque de homem ao meio?(16.2.3)
+
+- **O agente da ameaça é posicionado entre duas entidades legítimas para ler ou modificar os dados que passam entre as duas partes.**
+
+28. Angela, membro da equipe de TI da ACME Inc., percebeu que a comunicação com o servidor Web da empresa estava muito lenta. Depois de investigar, ela determina que a causa da resposta lenta é um computador na Internet enviando um número muito grande de solicitações da Web malformadas ao servidor da ACME. Que tipo de ataque é descrito neste cenário?(16.2.5)
+
+- **Ataque de negação de serviço.**
+
+29. George precisava compartilhar um vídeo com um colega de trabalho. Como o arquivo era muito grande, ele decidiu executar um servidor FTP simples em sua estação de trabalho para enviar o vídeo para o seu colega. Para facilitar as coisas, George criou uma conta com a senha simples de "arquivo" e a forneceu a seu colega de trabalho na sexta-feira. Sem as medidas de segurança adequadas ou uma senha forte, a equipe de TI não ficou surpresa ao saber na segunda-feira que a estação de trabalho de George havia sido comprometida e estava tentando fazer upload de documentos relacionados ao trabalho na Internet. Que tipo de ataque é descrito neste cenário?
+
+- **Ataque de acesso.**
+
+30. Jeremiah estava navegando na Internet a partir de seu computador pessoal quando um site aleatório ofereceu um programa gratuito para limpar seu sistema. Após o download do executável e a execução, o sistema operacional travou. Arquivos importantes relacionados ao sistema operacional foram corrompidos e o computador de Jeremiah precisou ter o disco rígido completamente formatado e o sistema operacional reinstalado. Que tipo de ataque é descrito neste cenário?
+
+- **Ataque de malware.**
+
+31. Arianna encontrou um pen drive na calçada de um estacionamento do shopping. Ela perguntou, mas não conseguiu encontrar o proprietário. Ela decidiu mantê-lo e conectou-o ao laptop, apenas para encontrar uma pasta de fotos. Curiosa, Arianna abriu algumas fotos antes de formatar a unidade e usá-la depois. Depois, Arianna percebeu que a câmera do laptop estava ativa. Que tipo de ataque é descrito neste cenário?
+
+- **Atque de malware.**
+
+32. Um computador é usado como servidor de impressão para a ACME Inc. A equipe de TI falhou na aplicação das atualizações de segurança para este computador por mais de 60 dias. Agora, o servidor de impressão está operando lentamente e enviando um grande número de pacotes maliciosos à sua NIC. Que tipo de ataque é descrito neste cenário?
+
+- **Dos.**
+
+33. Sharon, estagiária de TI da ACME Inc., percebeu alguns pacotes suspeitos, enquanto revisava os registros de segurança gerados pelo firewall. Um punhado de endereços IP na Internet estava enviando pacotes malformados para vários endereços IP diferentes, em vários números de portas aleatórios dentro da ACME Inc. Que tipo de ataque é descrito neste cenário?
+
+- **Ataque de reconehcimento.**
+
+34. Qual dispositivo controla o tráfego entre duas ou mais redes para ajudar a impedir o acesso não autorizado??(16.3.8)
+
+- **Firewall**
+
+35. Qual dispositivo é usado por outros dispositivos de rede para autenticar e autorizar o acesso de gerenciamento?(16.3.8)
+
+- **Servidor AAA.**
+
+36. Que consideração de política de backup está preocupada com o uso de senhas fortes para proteger os backups e restaurar dados?(16.3.8)
+
+- **Validação.**
+
+37. Essa zona é usada para alojar servidores que devem ser acessíveis a usuários externos.(16.3.8)
+
+- **DMZ**
+
+38. O que é apropriado para fornecer segurança de endpoint?(16.3.8)
+
+- **Software de antivírus.**
+
+39. Qual comando dos roteadores ciscos é usado para auxiliar nas configurações de segurança?(16.4.1)
+
+- **Router# auto secure**
+
+40. espaços são aceitos em senha dos nos dipositivos cisco?(16.4.2)
+
+- **Sim, mas apenas os espaços a direita do primeiro caracter.**
+
+41. Qual comando garante que todas as senhas tenha um tamanho especifico?(16.4.3)
+
+- **Router(conf-term)# security passwords min-length**
+
+42. Qual comando é usado para bloquear ataques que tenta continuamente adivinhar senhas?(16.4.3)
+
+- **Router(conf-term)# login block-for 120 attempts 3 within 60**
+
+43. Em quanto tempo por padrão uma sessão em um roteador cisco é finalizado por initivdade?(16.4.3)
+
+- **10 minutos.**
+
+44. Qual comando é utilizado para reduzir o tempo de finalização de uma sessão cisco por inatividade e em qual modos ele pode ser utilizado?(16.4.3)
+
+- **exec-timeout minutos segundos, pode sem usado em  on-line console, auxiliares e linhas vty.**
+
+45. Quas são as etapas para configurar um acesso SSH?(16.4.4)
+
+- **Router# configure terminal**
+- **Router(config)# hostname R1**
+- **R1(config)# ip domain name span.com**
+- **R1(config)# crypto key generate rsa general-keys modulus 1024**
+- **The name for the keys will be: Rl.span.com % The key modulus size is 1024 bits**
+- **% Generating 1024 bit RSA keys, keys will be non-exportable...[OK]**
+- **Dec 13 16:19:12.079: %SSH-5-ENABLED: SSH 1.99 has been enabled**
+- **R1(config)#**
+- **R1(config)# username Bob secret cisco**
+- **R1(config)# line vty 0 4**
+- **R1(config-line)# login local**
+- **R1(config-line)# transport input ssh**
+- **R1(config-line)# exit**
+- **R1(config)#**
+
+46. Qual comando mostra os serviços ativos em um roteador cisco?(16.4.5)
+
+- **Router# show ip ports all**
+
+47. Como se desativa o servidor telnet em roteadores cisco?(16.4.5)
+
+- **Especificando apenas SSH no comando de configuração de linha, transport input ssh.**
+
+48. Como se desativa o servidor http em roteadores cisco?(16.4.5)
+
+- **Router(config)# no ip http server**
+
+49. Qual componente foi projetado para proteger contra comunicações não autorizadas de e para um computador?(16.5.4)
+
+- **Firewall.**
+
+50. Qual comando bloqueará as tentativas de login no RouterA por um período de 30 segundos, se houver duas tentativas de login com falha dentro de 10 segundos?(16.5.4)
+
+- **Router(config)#login block-for 30 attempts 2 within 10**
+
+51. Qual é o objetivo da função de Accounting de segurança de rede?(16.5.4)
+
+- **Rastrear as açõe de um usuário**
+
+52. Que tipo de ataque pode envolver o uso de ferramentas como nslookup e fping?(16.5.4)
+
+- **Reconhecimento**
+
+53. Qual o benefício que o SSH oferece sobre o Telnet para gerenciar remotamente um roteador?(16.5.4)
+
+- **Criptografia**
+
+54. Qual é a ferramenta de segurança mais eficaz disponível para proteger os usuários de ameaças externas?(16.5.4)
+
+- **Firewalls**
+
+55. Qual tipo de ameaça à rede destina-se a impedir que usuários autorizados acessem os recursos?(16.5.4)
+
+- **Dos**
+
+56. Quais são os três serviços fornecidos pela estrutura AAA? (Escolha três.)(16.5.4)
+
+- **Autorização, Accounting e Autenticação.**
+
+57. Qual ataque de código mal-intencionado é autônomo e tenta explorar uma vulnerabilidade específica em um sistema que está sendo atacado?(16.5.4)
+
+- **Worm**
+
+58. Alguns roteadores e switches em um wiring closet deram defeito após uma falha na unidade de ar condicionado. Que tipo de ameaça a situação descreve?(16.5.4)
+
+- **Ambiental**
+
+59. O que o termo vulnerabilidade significa?(16.5.4)
+
+- **Uma fraqueza que torna um alvo suscetível a um ataque.**
+
+60. Quais três etapas de configuração devem ser executadas para implementar o acesso SSH a um roteador?(16.5.4)
+
+- **Um nome de domínio IP, um nome de host exclusivo e uma conta de usuário.**
+
+61. Qual é o objetivo de um ataque de reconhecimento de rede?(16.5.4)
+
+- **Descoberta e mapeamento de sistemas.**
+
+62. Por motivos de segurança, um administrador de rede precisa garantir que os computadores locais não possam efetuar ping entre si. Quais configurações podem realizar essa tarefa?(16.5.4)
+
+- **Configurações de firewall.**
+
+63. Um administrador de rede estabelece uma conexão com um switch via SSH. Qual característica descreve exclusivamente a conexão SSH?(16.5.4)
+
+- **Acesso remoto a um switch onde os dados são criptografados durante a sessão.**
+
+# 17 Criação de uma rede pequena
+
+1. Qual fator deve ser considerado ao selecionar dispositivos de rede?(17.1.6)
+
+- **Custo**
+
+2. O que é necessário planejar e usar ao implementar uma rede?(17.1.6)
+
+
+- **Esquema de resolução de IP.**
+
+3. O que é necessário para manter um alto grau de confiabilidade e eliminar pontos únicos de falha?(17.1.6)
+
+- **Redundância.**
+
+4. O que é necessário para classificar o tráfego de acordo com a prioridade?(17.1.6)
+
+- **Qualificação do serviço(QoS).**
+
+5. Quais elementos são necessários para dimensionar para uma rede maior?(17.3.4)
+
+- **Despesas e Documentação da rede.**
+
+6. Qual ferramenta do Windows 10 é útil para determinar quais aplicativos estão usando serviços de rede em um host?(17.3.4)
+
+- **Uso de dados.**
+
+7. Em um windows quais comando podem ser usados para renovar o IP configurad via DHCP?(17.5.1)
+
+- **ipconfig /release e ipconfig /renew**
+
+8. Qual comando exibe todas as entradas DNS armazenadas em cache em um sistema de computador Windows?(17.5.1)
+
+- **ipconfig /displaydns**
+
+9. Qual a funcionalidade do protoloco proprietário da cisco CDP?(17.5.6)
+
+- **O CDP descobre automaticamente dispositivos Cisco adjacentes executando CDP, independentemente de qual protocolo ou suíte de Camada 3 está em execução.**
+
+10. Em qual camada atua o CDP?(17.5.6)
+
+- **Enlace de dados.**
+
+11. Qais informações o CDP fornece?(17.5.6)
+
+- **Identificadores de dispositivo, Lista de endereços, Identificador de porta, Lista de capacidades e Plataforma.**
+
+12. Qual comando mostra os dispositivos conectados diretamente em um CISCO IOS?(17.5.6)
+
+- **R3# show cdp neighbors**
+
+13. Qual comando mostra o IP dos dispositivos conectados diretamente em um CISCO IOS mesmo que esses dispositivos não estejam noectados na mesma rede?(17.5.6)
+
+- **R3# show cdp neighbors detail **
+
+14. Qual comando desativa o cdp globalmente e em uma interface respectivamente?(17.5.6)
+
+- **R3(config)# no cdp run , R3(interface)#no cdp enable.**
+
+15. Para que serve o comando debug?(17.6.3)
+
+- **Exiba essas mensagens em tempo real para análise.**
+
+16. Qual comando habilita a saída debug ser visível em conexões vty e qual desabilita?(17.6.4)
+
+- **R1#  terminal monitor ,R1# terminal no monitor**
+
+17. Quais são as principais etapas no processo de solução de problemas?(17.6.1)
+
+- **Etapa 1. Identificar o Problema**
+- **Etapa 2. Estabelecer uma teoria de causas prováveis**
+- **Etapa 3. Testar a Teoria para Determinar a Causa**
+- **Etapa 4. Estabelecer um plano de ação e implementar a solução**
+- **Etapa 5. Verifique a solução e implemente medidas preventivas**
+- **Etapa 6. Documentar Descobertas, Ações e Resultados**
+
+18. Um técnico está usando o comando EXEC debug ip icmp privilegiado para capturar a saída do roteador em funcionamento ou em operação. Quais comandos parariam esse comando debug em um roteador Cisco?(17.6.1)
+
+- **no debug ip icmp, undebug all e undebug ip icmp**
+
+19. Um técnico estabeleceu uma conexão remota ao roteador R1 para observar a debug saída. O técnico insere o comando debug ip icmp e faz o ping de um destino remoto. No entanto, nenhuma saída é exibida. Qual comando o técnico teria que inserir para exibir mensagens de log em uma conexão remota?(17.6.5)
+
+- **terminal monitor**
+
+20. 
+
+
+in progress...
 
 
 
